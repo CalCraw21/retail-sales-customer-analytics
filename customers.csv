@@ -1,0 +1,801 @@
+customer_id,first_name,last_name,email,city,state,signup_date,customer_segment,acquisition_channel,loyalty_tier,marketing_opt_in
+100002,Skyler,Garcia,customer0001@example.com,Peoria,IL,2026-08-09,Consumer,Paid Search,Bronze,True
+100018,Avery,Williams,customer0002@example.com,Grand Rapids,MI,2023-01-20,Consumer,Email,Bronze,True
+100030,Morgan,Johnson,customer0003@example.com,Lansing,MI,2021-07-18,Consumer,Organic Search,Gold,True
+100041,Alex,Williams,customer0004@example.com,Columbus,OH,2022-10-17,Consumer,Paid Search,Bronze,False
+100046,Skyler,Lee,customer0005@example.com,Buffalo,NY,2023-07-21,Consumer,Organic Search,Bronze,False
+100058,Reese,Johnson,customer0006@example.com,Indianapolis,IN,2021-09-29,Consumer,Direct,Bronze,True
+100072,Alex,Taylor,customer0007@example.com,Dallas,TX,2021-04-13,Consumer,Organic Search,Gold,True
+100084,Drew,Moore,customer0008@example.com,Evansville,IN,2021-01-03,Consumer,Organic Search,Silver,True
+100096,Harper,Lee,customer0009@example.com,Minneapolis,MN,2021-07-19,Small Business,Organic Search,Gold,True
+100102,Drew,Miller,customer0010@example.com,Chicago,IL,2023-12-16,Small Business,Direct,Bronze,False
+100118,Jordan,Anderson,customer0011@example.com,Columbus,OH,2026-06-30,Corporate,Paid Search,Gold,True
+100121,Bailey,Lee,customer0012@example.com,Sacramento,CA,2024-01-18,Consumer,Organic Search,Bronze,True
+100140,Riley,Johnson,customer0013@example.com,Rockford,IL,2025-10-12,Consumer,Organic Search,Bronze,False
+100144,Riley,Williams,customer0014@example.com,Houston,TX,2020-03-14,Consumer,Paid Search,Gold,True
+100155,Harper,Davis,customer0015@example.com,Naperville,IL,2025-03-17,Consumer,Organic Search,Silver,False
+100166,Bailey,Davis,customer0016@example.com,Rockford,IL,2020-12-18,Consumer,Direct,Silver,True
+100176,Devon,Williams,customer0017@example.com,Orlando,FL,2020-08-11,Consumer,Email,Bronze,True
+100195,Quinn,Rodriguez,customer0018@example.com,Des Moines,IA,2025-11-26,Consumer,Email,Gold,True
+100203,Avery,Rodriguez,customer0019@example.com,Cedar Rapids,IA,2021-01-17,Small Business,Paid Search,Silver,True
+100211,Harper,Clark,customer0020@example.com,Grand Rapids,MI,2021-07-20,Consumer,Email,Silver,False
+100227,Quinn,Williams,customer0021@example.com,Philadelphia,PA,2021-01-01,Consumer,Organic Search,Gold,True
+100238,Devon,White,customer0022@example.com,Detroit,MI,2022-10-24,Consumer,Direct,Bronze,False
+100243,Sam,Miller,customer0023@example.com,Rockford,IL,2022-05-31,Consumer,Organic Search,Gold,False
+100257,Casey,Thomas,customer0024@example.com,Indianapolis,IN,2026-06-13,Consumer,Email,Gold,True
+100267,Parker,Wilson,customer0025@example.com,Columbus,OH,2020-08-05,Consumer,Referral,Silver,True
+100282,Sam,Wilson,customer0026@example.com,Tampa,FL,2024-12-22,Small Business,Referral,Bronze,True
+100294,Alex,Lewis,customer0027@example.com,Houston,TX,2023-01-21,Corporate,Paid Search,Silver,False
+100301,Harper,Brown,customer0028@example.com,Detroit,MI,2020-02-26,Consumer,Email,Silver,True
+100312,Morgan,Brown,customer0029@example.com,Des Moines,IA,2023-11-11,Consumer,Organic Search,Bronze,True
+100323,Drew,Harris,customer0030@example.com,Bloomington,IL,2026-04-10,Consumer,Email,Bronze,False
+100335,Jamie,Lewis,customer0031@example.com,Evansville,IN,2021-04-30,Small Business,Direct,Bronze,True
+100345,Logan,Lee,customer0032@example.com,Fort Wayne,IN,2020-08-30,Consumer,Social Media,Bronze,True
+100352,Taylor,Clark,customer0033@example.com,Cleveland,OH,2020-08-08,Consumer,Social Media,Bronze,True
+100367,Jordan,Smith,customer0034@example.com,Madison,WI,2026-06-08,Small Business,Direct,Gold,False
+100376,Elliot,Rodriguez,customer0035@example.com,Philadelphia,PA,2022-05-19,Consumer,Organic Search,Bronze,True
+100392,Sam,Moore,customer0036@example.com,Rockford,IL,2026-05-23,Small Business,Email,Silver,True
+100396,Morgan,Williams,customer0037@example.com,Evansville,IN,2023-01-18,Small Business,Social Media,Silver,True
+100409,Sam,Johnson,customer0038@example.com,Grand Rapids,MI,2021-01-27,Consumer,Referral,Gold,True
+100426,Casey,Moore,customer0039@example.com,Atlanta,GA,2022-09-27,Small Business,Organic Search,Bronze,False
+100429,Drew,Thomas,customer0040@example.com,Chicago,IL,2020-10-22,Consumer,Social Media,Bronze,False
+100445,Jamie,Lewis,customer0041@example.com,New York,NY,2023-11-08,Consumer,Social Media,Bronze,True
+100452,Parker,Thompson,customer0042@example.com,Naperville,IL,2025-11-12,Corporate,Direct,Gold,True
+100464,Avery,Garcia,customer0043@example.com,Columbus,OH,2023-01-11,Consumer,Paid Search,Bronze,True
+100479,Alex,Garcia,customer0044@example.com,Savannah,GA,2023-07-21,Consumer,Direct,Bronze,True
+100490,Harper,Davis,customer0045@example.com,Fort Wayne,IN,2021-02-06,Consumer,Organic Search,Gold,True
+100497,Milan,Brown,customer0046@example.com,Cedar Rapids,IA,2021-09-12,Consumer,Paid Search,Silver,True
+100506,Kendall,Davis,customer0047@example.com,Philadelphia,PA,2020-12-15,Small Business,Social Media,Bronze,False
+100524,Parker,Wilson,customer0048@example.com,Milwaukee,WI,2025-06-27,Consumer,Paid Search,Gold,True
+100531,Alex,Lewis,customer0049@example.com,Austin,TX,2024-04-10,Consumer,Direct,Bronze,False
+100545,Quinn,Rodriguez,customer0050@example.com,Chicago,IL,2025-04-28,Corporate,Paid Search,Bronze,True
+100554,Parker,Clark,customer0051@example.com,Rockford,IL,2022-11-29,Consumer,Paid Search,Gold,True
+100567,Harper,Thompson,customer0052@example.com,Dallas,TX,2021-01-08,Consumer,Email,Silver,True
+100572,Morgan,Rodriguez,customer0053@example.com,Atlanta,GA,2023-07-11,Consumer,Email,Gold,True
+100587,Jordan,Brown,customer0054@example.com,Cincinnati,OH,2022-04-19,Small Business,Referral,Platinum,True
+100600,Parker,Anderson,customer0055@example.com,Kansas City,MO,2021-02-26,Corporate,Paid Search,Silver,True
+100613,Morgan,Taylor,customer0056@example.com,Duluth,MN,2022-01-11,Consumer,Social Media,Gold,True
+100619,Cameron,Johnson,customer0057@example.com,Springfield,MO,2022-09-13,Consumer,Social Media,Bronze,True
+100633,Alex,Perez,customer0058@example.com,Springfield,MO,2022-04-18,Consumer,Email,Bronze,True
+100641,Parker,Moore,customer0059@example.com,Indianapolis,IN,2021-02-01,Small Business,Organic Search,Silver,True
+100654,Devon,Anderson,customer0060@example.com,Green Bay,WI,2025-03-21,Consumer,Paid Search,Silver,False
+100661,Sage,Wilson,customer0061@example.com,Evansville,IN,2026-06-11,Consumer,Direct,Silver,True
+100675,Harper,Moore,customer0062@example.com,Cedar Rapids,IA,2023-08-21,Consumer,Direct,Bronze,False
+100688,Milan,Wilson,customer0063@example.com,Rockford,IL,2023-08-14,Small Business,Email,Bronze,False
+100695,Jamie,Moore,customer0064@example.com,Albany,NY,2022-09-07,Consumer,Social Media,Silver,False
+100710,Harper,Garcia,customer0065@example.com,Green Bay,WI,2025-06-05,Corporate,Direct,Gold,False
+100719,Reese,Thompson,customer0066@example.com,Austin,TX,2021-08-21,Small Business,Referral,Silver,True
+100730,Drew,Miller,customer0067@example.com,Fort Wayne,IN,2024-01-25,Consumer,Paid Search,Silver,True
+100742,Robin,Martin,customer0068@example.com,Fort Wayne,IN,2024-04-28,Small Business,Direct,Bronze,True
+100751,Logan,Lee,customer0069@example.com,Green Bay,WI,2023-01-18,Small Business,Organic Search,Gold,True
+100761,Harper,Williams,customer0070@example.com,Grand Rapids,MI,2025-05-07,Corporate,Organic Search,Bronze,True
+100778,Harper,Clark,customer0071@example.com,Cedar Rapids,IA,2025-11-20,Corporate,Organic Search,Bronze,False
+100782,Avery,Lewis,customer0072@example.com,Madison,WI,2026-04-04,Small Business,Email,Bronze,False
+100795,Jamie,Jones,customer0073@example.com,Chicago,IL,2021-01-16,Consumer,Social Media,Silver,False
+100803,Avery,Lee,customer0074@example.com,Philadelphia,PA,2022-11-03,Corporate,Social Media,Bronze,False
+100821,Skyler,Clark,customer0075@example.com,Philadelphia,PA,2022-02-24,Consumer,Paid Search,Bronze,False
+100831,Kendall,Taylor,customer0076@example.com,Detroit,MI,2022-02-18,Small Business,Referral,Gold,True
+100838,Elliot,Smith,customer0077@example.com,Milwaukee,WI,2021-07-30,Small Business,Social Media,Gold,True
+100853,Avery,Garcia,customer0078@example.com,Tampa,FL,2025-01-08,Consumer,Organic Search,Silver,True
+100866,Robin,Johnson,customer0079@example.com,Rockford,IL,2021-07-09,Consumer,Referral,Bronze,False
+100872,Morgan,Martin,customer0080@example.com,Los Angeles,CA,2020-01-02,Consumer,Organic Search,Gold,False
+100887,Harper,Perez,customer0081@example.com,Duluth,MN,2023-01-19,Consumer,Paid Search,Silver,True
+100896,Robin,Harris,customer0082@example.com,Houston,TX,2025-06-30,Consumer,Referral,Bronze,True
+100910,Skyler,Thompson,customer0083@example.com,Fort Wayne,IN,2024-03-12,Small Business,Organic Search,Bronze,True
+100915,Sage,Lee,customer0084@example.com,Naperville,IL,2021-05-25,Small Business,Paid Search,Platinum,True
+100928,Avery,Clark,customer0085@example.com,Kansas City,MO,2021-03-15,Consumer,Direct,Platinum,False
+100943,Kendall,Clark,customer0086@example.com,Indianapolis,IN,2023-01-04,Consumer,Email,Bronze,False
+100950,Robin,Williams,customer0087@example.com,Duluth,MN,2025-01-01,Small Business,Email,Bronze,True
+100961,Avery,Rodriguez,customer0088@example.com,Cedar Rapids,IA,2023-09-11,Consumer,Paid Search,Bronze,False
+100973,Sam,Williams,customer0089@example.com,Los Angeles,CA,2022-05-03,Consumer,Paid Search,Silver,True
+100981,Avery,Taylor,customer0090@example.com,Duluth,MN,2023-10-06,Consumer,Organic Search,Bronze,True
+100992,Milan,Miller,customer0091@example.com,Miami,FL,2025-03-10,Consumer,Direct,Bronze,True
+101007,Skyler,Anderson,customer0092@example.com,Colorado Springs,CO,2024-05-02,Consumer,Organic Search,Silver,True
+101018,Jordan,Miller,customer0093@example.com,Kansas City,MO,2020-03-07,Consumer,Organic Search,Bronze,True
+101029,Bailey,Smith,customer0094@example.com,Rockford,IL,2021-06-08,Small Business,Paid Search,Bronze,True
+101040,Kendall,Smith,customer0095@example.com,Grand Rapids,MI,2022-04-18,Consumer,Organic Search,Gold,False
+101049,Reese,Moore,customer0096@example.com,Rockford,IL,2021-10-10,Consumer,Organic Search,Silver,True
+101064,Devon,Davis,customer0097@example.com,Buffalo,NY,2026-06-16,Small Business,Social Media,Platinum,True
+101070,Cameron,Moore,customer0098@example.com,Grand Rapids,MI,2025-01-21,Consumer,Direct,Silver,False
+101078,Reese,Anderson,customer0099@example.com,Naperville,IL,2025-05-17,Consumer,Social Media,Platinum,True
+101091,Robin,Jones,customer0100@example.com,Lansing,MI,2026-07-25,Consumer,Organic Search,Bronze,True
+101108,Alex,Taylor,customer0101@example.com,Rockford,IL,2025-05-10,Consumer,Paid Search,Bronze,True
+101111,Taylor,Clark,customer0102@example.com,Cedar Rapids,IA,2025-10-23,Corporate,Direct,Bronze,True
+101124,Robin,Garcia,customer0103@example.com,Columbus,OH,2026-07-02,Consumer,Email,Silver,True
+101137,Reese,Anderson,customer0104@example.com,Milwaukee,WI,2023-10-23,Consumer,Organic Search,Bronze,False
+101151,Quinn,Anderson,customer0105@example.com,Grand Rapids,MI,2025-10-15,Consumer,Referral,Bronze,False
+101159,Skyler,Rodriguez,customer0106@example.com,Denver,CO,2021-06-09,Consumer,Email,Bronze,False
+101173,Alex,Thompson,customer0107@example.com,Detroit,MI,2020-09-11,Consumer,Organic Search,Bronze,False
+101182,Avery,Clark,customer0108@example.com,Minneapolis,MN,2026-03-13,Consumer,Referral,Gold,True
+101188,Alex,Davis,customer0109@example.com,Columbus,OH,2023-01-12,Small Business,Paid Search,Gold,True
+101199,Devon,Jones,customer0110@example.com,Minneapolis,MN,2020-01-14,Consumer,Organic Search,Gold,True
+101212,Kendall,Lewis,customer0111@example.com,Minneapolis,MN,2021-08-12,Corporate,Direct,Bronze,True
+101224,Robin,Rodriguez,customer0112@example.com,Orlando,FL,2026-06-23,Consumer,Organic Search,Gold,True
+101234,Devon,Harris,customer0113@example.com,Duluth,MN,2024-04-12,Consumer,Paid Search,Bronze,True
+101244,Riley,Wilson,customer0114@example.com,Chicago,IL,2026-08-03,Small Business,Referral,Bronze,True
+101254,Drew,White,customer0115@example.com,Tampa,FL,2020-06-10,Consumer,Social Media,Silver,True
+101271,Reese,Miller,customer0116@example.com,St. Louis,MO,2020-02-28,Consumer,Email,Bronze,True
+101279,Morgan,Wilson,customer0117@example.com,Duluth,MN,2026-04-01,Consumer,Organic Search,Bronze,True
+101288,Bailey,Johnson,customer0118@example.com,Savannah,GA,2021-06-09,Consumer,Referral,Platinum,True
+101306,Skyler,Lewis,customer0119@example.com,Kansas City,MO,2026-08-24,Consumer,Paid Search,Bronze,True
+101310,Logan,Clark,customer0120@example.com,Rochester,MN,2025-11-04,Corporate,Direct,Bronze,False
+101320,Skyler,Lee,customer0121@example.com,Milwaukee,WI,2023-07-03,Consumer,Direct,Gold,True
+101337,Parker,Clark,customer0122@example.com,Naperville,IL,2026-01-21,Small Business,Organic Search,Silver,False
+101344,Skyler,Garcia,customer0123@example.com,Duluth,MN,2024-09-30,Consumer,Organic Search,Platinum,True
+101361,Elliot,Rodriguez,customer0124@example.com,Evansville,IN,2022-08-31,Consumer,Direct,Bronze,False
+101372,Kendall,Martin,customer0125@example.com,Dallas,TX,2023-08-17,Corporate,Direct,Platinum,True
+101379,Quinn,Davis,customer0126@example.com,Los Angeles,CA,2025-07-26,Consumer,Social Media,Gold,False
+101390,Robin,Davis,customer0127@example.com,Dallas,TX,2025-02-15,Consumer,Paid Search,Bronze,True
+101403,Quinn,Smith,customer0128@example.com,Naperville,IL,2023-03-29,Consumer,Referral,Bronze,False
+101413,Riley,Lee,customer0129@example.com,Des Moines,IA,2020-07-31,Consumer,Organic Search,Platinum,True
+101424,Cameron,Anderson,customer0130@example.com,Cleveland,OH,2020-03-27,Corporate,Direct,Bronze,True
+101434,Sam,Smith,customer0131@example.com,Rockford,IL,2026-04-04,Consumer,Social Media,Gold,True
+101444,Taylor,Davis,customer0132@example.com,Cedar Rapids,IA,2020-06-04,Consumer,Referral,Silver,False
+101459,Sam,Davis,customer0133@example.com,Savannah,GA,2020-11-08,Consumer,Organic Search,Bronze,False
+101470,Robin,Smith,customer0134@example.com,Detroit,MI,2022-05-02,Small Business,Social Media,Bronze,True
+101478,Avery,Taylor,customer0135@example.com,Springfield,MO,2021-03-02,Consumer,Organic Search,Silver,True
+101488,Drew,Lewis,customer0136@example.com,Colorado Springs,CO,2024-07-06,Consumer,Organic Search,Silver,True
+101503,Sam,Perez,customer0137@example.com,Cleveland,OH,2026-04-14,Corporate,Social Media,Bronze,True
+101513,Sage,Thompson,customer0138@example.com,Peoria,IL,2022-12-05,Consumer,Organic Search,Silver,True
+101523,Milan,Martin,customer0139@example.com,Pittsburgh,PA,2020-02-12,Small Business,Social Media,Bronze,False
+101533,Cameron,Davis,customer0140@example.com,St. Louis,MO,2023-02-23,Small Business,Paid Search,Silver,False
+101543,Quinn,Brown,customer0141@example.com,Des Moines,IA,2022-01-09,Consumer,Email,Platinum,True
+101554,Jamie,Lee,customer0142@example.com,Grand Rapids,MI,2022-05-01,Small Business,Social Media,Silver,True
+101570,Devon,Wilson,customer0143@example.com,Indianapolis,IN,2024-01-05,Consumer,Organic Search,Silver,False
+101576,Drew,Davis,customer0144@example.com,Orlando,FL,2024-12-30,Consumer,Organic Search,Platinum,True
+101586,Drew,Smith,customer0145@example.com,Evansville,IN,2022-08-26,Consumer,Direct,Silver,False
+101603,Casey,Rodriguez,customer0146@example.com,Chicago,IL,2021-12-14,Consumer,Social Media,Bronze,True
+101606,Sam,Wilson,customer0147@example.com,Green Bay,WI,2022-07-25,Consumer,Email,Bronze,True
+101619,Elliot,Lee,customer0148@example.com,Los Angeles,CA,2020-11-07,Small Business,Referral,Bronze,False
+101628,Bailey,Wilson,customer0149@example.com,Fort Wayne,IN,2022-04-12,Consumer,Social Media,Bronze,True
+101646,Robin,Anderson,customer0150@example.com,Austin,TX,2022-06-02,Consumer,Paid Search,Bronze,True
+101650,Cameron,Lee,customer0151@example.com,Milwaukee,WI,2025-10-09,Consumer,Referral,Gold,True
+101662,Reese,Lee,customer0152@example.com,St. Louis,MO,2022-06-23,Small Business,Direct,Silver,False
+101672,Casey,Jones,customer0153@example.com,Tampa,FL,2023-05-20,Consumer,Organic Search,Bronze,True
+101687,Taylor,Davis,customer0154@example.com,Columbus,OH,2025-04-23,Consumer,Social Media,Silver,False
+101702,Skyler,Harris,customer0155@example.com,Rockford,IL,2024-10-12,Small Business,Direct,Platinum,False
+101708,Logan,Taylor,customer0156@example.com,Orlando,FL,2021-07-05,Consumer,Paid Search,Bronze,True
+101723,Drew,White,customer0157@example.com,Colorado Springs,CO,2022-11-24,Consumer,Paid Search,Bronze,True
+101731,Bailey,Harris,customer0158@example.com,Chicago,IL,2022-04-24,Corporate,Paid Search,Gold,False
+101739,Jamie,Clark,customer0159@example.com,Indianapolis,IN,2024-12-17,Small Business,Paid Search,Gold,True
+101753,Harper,Williams,customer0160@example.com,St. Louis,MO,2021-03-05,Small Business,Organic Search,Bronze,False
+101763,Riley,Thompson,customer0161@example.com,Milwaukee,WI,2020-01-14,Consumer,Paid Search,Gold,False
+101773,Alex,Moore,customer0162@example.com,Grand Rapids,MI,2022-11-19,Small Business,Organic Search,Bronze,True
+101789,Drew,Johnson,customer0163@example.com,Philadelphia,PA,2025-12-03,Consumer,Social Media,Gold,True
+101797,Milan,Wilson,customer0164@example.com,Lansing,MI,2020-04-04,Small Business,Paid Search,Bronze,True
+101811,Taylor,Lewis,customer0165@example.com,Detroit,MI,2022-12-02,Small Business,Email,Silver,False
+101819,Elliot,White,customer0166@example.com,Lansing,MI,2023-03-20,Consumer,Direct,Bronze,False
+101829,Skyler,Brown,customer0167@example.com,Houston,TX,2026-07-03,Consumer,Organic Search,Bronze,True
+101840,Elliot,Jones,customer0168@example.com,Madison,WI,2020-08-27,Small Business,Direct,Gold,True
+101850,Taylor,Johnson,customer0169@example.com,Milwaukee,WI,2020-10-17,Consumer,Direct,Bronze,True
+101863,Devon,White,customer0170@example.com,Buffalo,NY,2021-09-16,Consumer,Organic Search,Bronze,False
+101877,Morgan,Martin,customer0171@example.com,Sacramento,CA,2021-01-28,Corporate,Direct,Gold,True
+101885,Milan,Taylor,customer0172@example.com,Peoria,IL,2021-05-31,Small Business,Paid Search,Silver,False
+101900,Sam,Lee,customer0173@example.com,Naperville,IL,2020-10-25,Corporate,Email,Bronze,False
+101904,Devon,Johnson,customer0174@example.com,Rochester,MN,2025-03-28,Small Business,Referral,Silver,True
+101919,Devon,Rodriguez,customer0175@example.com,Chicago,IL,2026-08-14,Consumer,Social Media,Silver,True
+101926,Avery,Lewis,customer0176@example.com,Sacramento,CA,2021-08-06,Corporate,Organic Search,Silver,False
+101936,Harper,Rodriguez,customer0177@example.com,Duluth,MN,2025-05-06,Small Business,Direct,Silver,False
+101947,Riley,Lee,customer0178@example.com,Pittsburgh,PA,2021-04-06,Consumer,Email,Bronze,False
+101962,Riley,White,customer0179@example.com,Naperville,IL,2024-01-03,Small Business,Paid Search,Gold,True
+101976,Taylor,Lee,customer0180@example.com,Pittsburgh,PA,2022-10-07,Small Business,Paid Search,Gold,True
+101986,Quinn,Anderson,customer0181@example.com,Des Moines,IA,2021-12-21,Small Business,Organic Search,Bronze,False
+101993,Quinn,Moore,customer0182@example.com,Duluth,MN,2024-06-01,Consumer,Organic Search,Bronze,False
+102009,Drew,Lewis,customer0183@example.com,Naperville,IL,2025-08-23,Corporate,Organic Search,Silver,True
+102021,Jordan,Martin,customer0184@example.com,New York,NY,2022-08-29,Small Business,Direct,Bronze,True
+102029,Cameron,Anderson,customer0185@example.com,Los Angeles,CA,2025-05-11,Consumer,Organic Search,Platinum,False
+102041,Logan,Smith,customer0186@example.com,Cedar Rapids,IA,2021-08-24,Small Business,Social Media,Bronze,True
+102052,Jordan,Miller,customer0187@example.com,Springfield,MO,2022-01-30,Small Business,Referral,Bronze,True
+102062,Devon,Lee,customer0188@example.com,Naperville,IL,2021-05-08,Corporate,Direct,Gold,True
+102068,Jamie,Rodriguez,customer0189@example.com,Rockford,IL,2021-12-13,Consumer,Organic Search,Bronze,False
+102081,Drew,Martin,customer0190@example.com,Naperville,IL,2021-06-02,Consumer,Referral,Silver,False
+102091,Alex,Clark,customer0191@example.com,Des Moines,IA,2022-09-29,Consumer,Social Media,Silver,True
+102103,Drew,Thompson,customer0192@example.com,Milwaukee,WI,2025-12-01,Consumer,Organic Search,Gold,True
+102120,Skyler,Williams,customer0193@example.com,Bloomington,IL,2025-01-24,Small Business,Paid Search,Silver,False
+102124,Robin,Brown,customer0194@example.com,Bloomington,IL,2021-08-26,Small Business,Paid Search,Bronze,False
+102141,Milan,Wilson,customer0195@example.com,Tampa,FL,2020-09-30,Consumer,Paid Search,Silver,True
+102149,Skyler,Lee,customer0196@example.com,Cedar Rapids,IA,2021-12-23,Consumer,Organic Search,Silver,False
+102159,Robin,Thompson,customer0197@example.com,St. Louis,MO,2024-02-01,Consumer,Paid Search,Bronze,True
+102173,Jamie,Harris,customer0198@example.com,Cincinnati,OH,2020-06-30,Small Business,Organic Search,Gold,True
+102180,Taylor,Rodriguez,customer0199@example.com,Dallas,TX,2026-06-12,Consumer,Email,Gold,True
+102194,Logan,Rodriguez,customer0200@example.com,Minneapolis,MN,2023-03-03,Consumer,Email,Bronze,True
+102204,Sage,Wilson,customer0201@example.com,Cincinnati,OH,2023-06-14,Consumer,Social Media,Platinum,True
+102218,Casey,Martin,customer0202@example.com,Evansville,IN,2026-03-08,Consumer,Organic Search,Bronze,True
+102229,Parker,Anderson,customer0203@example.com,Houston,TX,2023-08-12,Consumer,Social Media,Bronze,False
+102241,Reese,Martin,customer0204@example.com,Peoria,IL,2024-12-01,Consumer,Paid Search,Silver,True
+102247,Milan,Davis,customer0205@example.com,Houston,TX,2021-01-09,Corporate,Social Media,Silver,False
+102261,Avery,Moore,customer0206@example.com,Philadelphia,PA,2021-07-19,Consumer,Paid Search,Bronze,True
+102271,Sage,Lee,customer0207@example.com,Duluth,MN,2025-01-13,Corporate,Social Media,Silver,False
+102283,Reese,Lewis,customer0208@example.com,Denver,CO,2026-08-31,Consumer,Social Media,Gold,True
+102295,Jordan,Jones,customer0209@example.com,Lansing,MI,2021-08-14,Corporate,Direct,Gold,True
+102304,Morgan,Martin,customer0210@example.com,Milwaukee,WI,2026-08-11,Consumer,Social Media,Silver,False
+102318,Robin,Smith,customer0211@example.com,Lansing,MI,2024-07-20,Consumer,Paid Search,Bronze,True
+102323,Skyler,Clark,customer0212@example.com,New York,NY,2025-01-09,Consumer,Organic Search,Silver,True
+102333,Kendall,Rodriguez,customer0213@example.com,Peoria,IL,2026-07-19,Consumer,Email,Bronze,True
+102349,Elliot,Williams,customer0214@example.com,Peoria,IL,2022-02-14,Consumer,Organic Search,Gold,True
+102362,Reese,Anderson,customer0215@example.com,Cedar Rapids,IA,2021-07-14,Consumer,Organic Search,Gold,False
+102373,Jordan,Harris,customer0216@example.com,Chicago,IL,2022-12-25,Consumer,Direct,Silver,True
+102379,Elliot,Lewis,customer0217@example.com,Fort Wayne,IN,2025-06-03,Consumer,Social Media,Platinum,True
+102390,Sage,Williams,customer0218@example.com,Madison,WI,2024-06-04,Consumer,Paid Search,Bronze,True
+102399,Elliot,Brown,customer0219@example.com,Grand Rapids,MI,2023-03-26,Consumer,Paid Search,Silver,True
+102411,Milan,Wilson,customer0220@example.com,Los Angeles,CA,2024-10-08,Small Business,Email,Bronze,True
+102420,Quinn,Johnson,customer0221@example.com,Cedar Rapids,IA,2024-08-29,Consumer,Organic Search,Bronze,True
+102436,Parker,Moore,customer0222@example.com,Bloomington,IL,2021-08-24,Small Business,Direct,Bronze,False
+102445,Logan,Moore,customer0223@example.com,Rockford,IL,2022-01-13,Corporate,Organic Search,Silver,False
+102455,Riley,Garcia,customer0224@example.com,Miami,FL,2026-03-16,Corporate,Social Media,Bronze,False
+102470,Devon,Lewis,customer0225@example.com,Des Moines,IA,2026-04-17,Consumer,Social Media,Bronze,False
+102482,Bailey,Jones,customer0226@example.com,Bloomington,IL,2024-02-15,Consumer,Direct,Bronze,True
+102493,Elliot,Rodriguez,customer0227@example.com,Madison,WI,2026-03-23,Consumer,Paid Search,Bronze,True
+102501,Harper,Smith,customer0228@example.com,Cleveland,OH,2026-07-03,Corporate,Email,Bronze,False
+102512,Harper,Thompson,customer0229@example.com,Detroit,MI,2021-05-04,Consumer,Email,Gold,True
+102520,Robin,Thomas,customer0230@example.com,Houston,TX,2025-09-17,Corporate,Organic Search,Bronze,False
+102534,Elliot,Moore,customer0231@example.com,Green Bay,WI,2022-01-29,Consumer,Referral,Bronze,True
+102545,Robin,Wilson,customer0232@example.com,New York,NY,2020-06-23,Consumer,Direct,Bronze,False
+102558,Kendall,Brown,customer0233@example.com,St. Louis,MO,2021-04-09,Small Business,Social Media,Bronze,True
+102569,Bailey,Thomas,customer0234@example.com,Springfield,MO,2020-10-10,Consumer,Paid Search,Bronze,True
+102578,Milan,Wilson,customer0235@example.com,Detroit,MI,2023-08-20,Consumer,Organic Search,Silver,True
+102591,Cameron,Smith,customer0236@example.com,Springfield,MO,2023-07-02,Consumer,Organic Search,Bronze,True
+102596,Devon,Lee,customer0237@example.com,Grand Rapids,MI,2025-02-16,Consumer,Social Media,Silver,True
+102610,Devon,Thomas,customer0238@example.com,Columbus,OH,2025-06-08,Consumer,Paid Search,Bronze,False
+102621,Devon,Rodriguez,customer0239@example.com,Atlanta,GA,2022-03-06,Consumer,Referral,Bronze,False
+102630,Elliot,Clark,customer0240@example.com,Des Moines,IA,2020-02-24,Corporate,Direct,Bronze,True
+102644,Robin,Johnson,customer0241@example.com,Duluth,MN,2023-08-06,Consumer,Direct,Bronze,True
+102656,Sage,Jones,customer0242@example.com,New York,NY,2020-12-25,Consumer,Social Media,Platinum,True
+102666,Quinn,Moore,customer0243@example.com,Bloomington,IL,2021-05-23,Corporate,Paid Search,Silver,True
+102676,Casey,Thompson,customer0244@example.com,Grand Rapids,MI,2020-05-06,Corporate,Social Media,Platinum,True
+102692,Logan,Rodriguez,customer0245@example.com,Columbus,OH,2024-11-13,Consumer,Paid Search,Gold,True
+102699,Kendall,Wilson,customer0246@example.com,Duluth,MN,2025-10-06,Corporate,Organic Search,Bronze,True
+102711,Morgan,Martin,customer0247@example.com,Detroit,MI,2023-10-11,Consumer,Organic Search,Silver,True
+102719,Avery,Lewis,customer0248@example.com,Lansing,MI,2021-05-05,Consumer,Email,Bronze,True
+102734,Sam,Thomas,customer0249@example.com,New York,NY,2020-05-16,Consumer,Direct,Bronze,True
+102745,Alex,Rodriguez,customer0250@example.com,Cincinnati,OH,2023-11-02,Consumer,Organic Search,Silver,True
+102751,Robin,Thomas,customer0251@example.com,Sacramento,CA,2026-01-29,Consumer,Email,Silver,False
+102765,Bailey,Taylor,customer0252@example.com,Green Bay,WI,2026-04-14,Consumer,Social Media,Silver,True
+102777,Morgan,Lewis,customer0253@example.com,Des Moines,IA,2022-05-01,Corporate,Paid Search,Bronze,True
+102790,Alex,Harris,customer0254@example.com,Evansville,IN,2020-02-04,Consumer,Organic Search,Bronze,True
+102799,Devon,Davis,customer0255@example.com,Lansing,MI,2022-10-21,Consumer,Paid Search,Bronze,True
+102806,Elliot,Martin,customer0256@example.com,Evansville,IN,2022-08-01,Small Business,Direct,Gold,True
+102820,Elliot,Moore,customer0257@example.com,Minneapolis,MN,2026-04-05,Small Business,Referral,Gold,False
+102829,Jordan,Johnson,customer0258@example.com,Grand Rapids,MI,2022-02-09,Small Business,Referral,Bronze,False
+102845,Morgan,Brown,customer0259@example.com,Bloomington,IL,2026-03-21,Small Business,Organic Search,Silver,True
+102857,Casey,Taylor,customer0260@example.com,San Diego,CA,2026-09-01,Small Business,Email,Gold,True
+102865,Harper,Thompson,customer0261@example.com,Madison,WI,2026-07-26,Consumer,Social Media,Bronze,True
+102873,Skyler,Clark,customer0262@example.com,Detroit,MI,2022-10-11,Small Business,Paid Search,Gold,True
+102889,Devon,Moore,customer0263@example.com,Madison,WI,2024-12-18,Consumer,Paid Search,Silver,True
+102893,Milan,Thomas,customer0264@example.com,Detroit,MI,2023-05-16,Consumer,Paid Search,Gold,True
+102911,Robin,Davis,customer0265@example.com,Savannah,GA,2020-01-19,Corporate,Referral,Bronze,True
+102916,Harper,Thomas,customer0266@example.com,Rockford,IL,2025-04-06,Small Business,Social Media,Bronze,False
+102931,Jordan,Taylor,customer0267@example.com,Peoria,IL,2022-05-15,Consumer,Organic Search,Silver,False
+102940,Morgan,Martin,customer0268@example.com,Chicago,IL,2023-10-13,Consumer,Paid Search,Silver,True
+102951,Elliot,Clark,customer0269@example.com,Denver,CO,2021-10-02,Consumer,Paid Search,Silver,False
+102959,Quinn,Davis,customer0270@example.com,Columbus,OH,2026-01-01,Consumer,Organic Search,Platinum,True
+102973,Taylor,Thompson,customer0271@example.com,Miami,FL,2021-09-22,Corporate,Organic Search,Bronze,False
+102984,Avery,Anderson,customer0272@example.com,Atlanta,GA,2023-03-27,Consumer,Paid Search,Bronze,True
+102992,Cameron,Jones,customer0273@example.com,Indianapolis,IN,2023-09-12,Consumer,Email,Bronze,True
+103011,Cameron,Garcia,customer0274@example.com,St. Louis,MO,2026-01-10,Consumer,Email,Bronze,False
+103014,Casey,Smith,customer0275@example.com,Dallas,TX,2022-09-12,Consumer,Paid Search,Bronze,True
+103028,Bailey,Anderson,customer0276@example.com,Milwaukee,WI,2025-11-16,Consumer,Paid Search,Bronze,True
+103038,Cameron,Johnson,customer0277@example.com,Indianapolis,IN,2024-09-02,Consumer,Paid Search,Bronze,True
+103053,Logan,Brown,customer0278@example.com,Sacramento,CA,2021-10-03,Consumer,Social Media,Platinum,True
+103059,Kendall,Martin,customer0279@example.com,Orlando,FL,2026-02-12,Consumer,Paid Search,Silver,False
+103077,Bailey,Brown,customer0280@example.com,Cleveland,OH,2025-04-28,Consumer,Social Media,Bronze,False
+103088,Avery,Harris,customer0281@example.com,Columbus,OH,2020-07-17,Small Business,Email,Silver,False
+103099,Drew,Martin,customer0282@example.com,Albany,NY,2024-11-07,Small Business,Organic Search,Silver,True
+103102,Jordan,Lee,customer0283@example.com,Buffalo,NY,2025-01-12,Consumer,Organic Search,Bronze,False
+103119,Harper,Brown,customer0284@example.com,Fort Wayne,IN,2024-05-07,Consumer,Direct,Silver,True
+103131,Taylor,Williams,customer0285@example.com,Madison,WI,2021-04-20,Consumer,Email,Bronze,True
+103137,Taylor,Jones,customer0286@example.com,Peoria,IL,2026-07-09,Consumer,Organic Search,Bronze,False
+103154,Milan,Anderson,customer0287@example.com,Savannah,GA,2022-02-06,Consumer,Social Media,Bronze,True
+103165,Drew,Martin,customer0288@example.com,Duluth,MN,2025-01-27,Consumer,Social Media,Gold,False
+103174,Morgan,Brown,customer0289@example.com,Rockford,IL,2022-08-18,Consumer,Paid Search,Bronze,True
+103182,Skyler,Martin,customer0290@example.com,Austin,TX,2022-07-31,Consumer,Direct,Bronze,True
+103196,Quinn,Martin,customer0291@example.com,Grand Rapids,MI,2025-01-01,Consumer,Direct,Bronze,True
+103207,Sage,Brown,customer0292@example.com,Rochester,MN,2020-07-15,Consumer,Social Media,Bronze,False
+103218,Quinn,Lewis,customer0293@example.com,Peoria,IL,2024-12-08,Consumer,Direct,Bronze,True
+103228,Casey,Lewis,customer0294@example.com,Naperville,IL,2022-11-15,Consumer,Organic Search,Silver,True
+103235,Taylor,Williams,customer0295@example.com,Austin,TX,2020-01-04,Small Business,Referral,Bronze,True
+103251,Morgan,Thomas,customer0296@example.com,Bloomington,IL,2020-06-11,Small Business,Organic Search,Silver,True
+103264,Jordan,White,customer0297@example.com,Sacramento,CA,2025-12-11,Consumer,Direct,Bronze,False
+103275,Quinn,Lewis,customer0298@example.com,Chicago,IL,2023-04-12,Consumer,Direct,Silver,False
+103284,Parker,Lewis,customer0299@example.com,Madison,WI,2025-07-20,Consumer,Social Media,Bronze,True
+103289,Drew,Harris,customer0300@example.com,Madison,WI,2022-10-22,Consumer,Paid Search,Bronze,False
+103305,Morgan,White,customer0301@example.com,Des Moines,IA,2023-11-08,Consumer,Direct,Bronze,True
+103313,Harper,Lee,customer0302@example.com,Bloomington,IL,2020-11-23,Consumer,Referral,Platinum,True
+103323,Parker,Thompson,customer0303@example.com,Dallas,TX,2020-09-18,Consumer,Referral,Bronze,True
+103334,Cameron,White,customer0304@example.com,Des Moines,IA,2020-06-25,Corporate,Paid Search,Bronze,True
+103350,Sam,Harris,customer0305@example.com,Duluth,MN,2024-02-08,Small Business,Referral,Gold,False
+103363,Alex,Harris,customer0306@example.com,Evansville,IN,2024-01-01,Consumer,Paid Search,Bronze,False
+103370,Alex,Garcia,customer0307@example.com,Kansas City,MO,2026-02-04,Consumer,Social Media,Silver,True
+103381,Quinn,Thomas,customer0308@example.com,Indianapolis,IN,2026-07-15,Consumer,Organic Search,Gold,True
+103390,Casey,White,customer0309@example.com,Evansville,IN,2025-01-14,Consumer,Direct,Silver,True
+103405,Taylor,Jones,customer0310@example.com,Houston,TX,2025-02-18,Consumer,Referral,Gold,False
+103410,Taylor,Perez,customer0311@example.com,Minneapolis,MN,2023-02-21,Consumer,Direct,Silver,False
+103427,Skyler,Martin,customer0312@example.com,Grand Rapids,MI,2022-03-01,Small Business,Direct,Bronze,True
+103434,Parker,Wilson,customer0313@example.com,Duluth,MN,2022-04-07,Consumer,Organic Search,Bronze,True
+103448,Bailey,Harris,customer0314@example.com,Minneapolis,MN,2023-03-25,Consumer,Email,Silver,False
+103454,Casey,Garcia,customer0315@example.com,Des Moines,IA,2026-05-08,Consumer,Organic Search,Bronze,True
+103466,Cameron,Martin,customer0316@example.com,Tampa,FL,2023-08-09,Consumer,Organic Search,Silver,True
+103482,Kendall,Harris,customer0317@example.com,Dallas,TX,2026-01-12,Consumer,Social Media,Bronze,True
+103493,Cameron,Miller,customer0318@example.com,Albany,NY,2025-07-20,Consumer,Social Media,Bronze,True
+103499,Parker,Moore,customer0319@example.com,Chicago,IL,2022-07-09,Consumer,Direct,Silver,True
+103513,Harper,Lewis,customer0320@example.com,Rockford,IL,2021-04-17,Consumer,Referral,Bronze,False
+103527,Logan,Lewis,customer0321@example.com,San Diego,CA,2023-11-06,Consumer,Direct,Bronze,True
+103531,Avery,Taylor,customer0322@example.com,Denver,CO,2020-09-28,Small Business,Social Media,Silver,True
+103542,Jamie,Wilson,customer0323@example.com,Los Angeles,CA,2024-07-20,Consumer,Email,Platinum,False
+103555,Cameron,Wilson,customer0324@example.com,Madison,WI,2023-05-06,Consumer,Direct,Gold,True
+103565,Alex,Lee,customer0325@example.com,Springfield,MO,2025-11-27,Consumer,Organic Search,Bronze,True
+103581,Riley,Jones,customer0326@example.com,Buffalo,NY,2023-02-07,Consumer,Organic Search,Silver,True
+103594,Milan,Davis,customer0327@example.com,Rockford,IL,2022-09-03,Consumer,Email,Gold,True
+103605,Harper,Thomas,customer0328@example.com,Denver,CO,2023-10-12,Corporate,Referral,Silver,True
+103614,Sage,Johnson,customer0329@example.com,Cedar Rapids,IA,2023-06-13,Consumer,Direct,Silver,False
+103619,Robin,Williams,customer0330@example.com,Grand Rapids,MI,2024-08-18,Consumer,Social Media,Silver,True
+103636,Bailey,Taylor,customer0331@example.com,Green Bay,WI,2025-07-27,Consumer,Paid Search,Platinum,True
+103647,Drew,Brown,customer0332@example.com,Madison,WI,2021-09-04,Consumer,Social Media,Silver,False
+103652,Quinn,Garcia,customer0333@example.com,Savannah,GA,2022-03-09,Consumer,Organic Search,Bronze,True
+103668,Taylor,Moore,customer0334@example.com,Chicago,IL,2021-11-29,Consumer,Email,Silver,True
+103677,Skyler,White,customer0335@example.com,Cedar Rapids,IA,2022-03-02,Consumer,Organic Search,Silver,False
+103693,Taylor,Taylor,customer0336@example.com,Peoria,IL,2022-08-28,Consumer,Referral,Gold,True
+103701,Avery,Anderson,customer0337@example.com,Des Moines,IA,2021-10-02,Small Business,Organic Search,Gold,True
+103708,Logan,Clark,customer0338@example.com,New York,NY,2024-09-02,Consumer,Organic Search,Bronze,True
+103726,Logan,Miller,customer0339@example.com,Madison,WI,2021-05-16,Consumer,Paid Search,Silver,False
+103734,Sage,Clark,customer0340@example.com,St. Louis,MO,2021-02-10,Consumer,Paid Search,Gold,True
+103743,Morgan,Jones,customer0341@example.com,Grand Rapids,MI,2026-04-14,Corporate,Paid Search,Silver,True
+103754,Riley,Harris,customer0342@example.com,Austin,TX,2026-04-28,Consumer,Organic Search,Silver,True
+103763,Riley,Clark,customer0343@example.com,Kansas City,MO,2020-05-06,Small Business,Referral,Silver,False
+103780,Bailey,White,customer0344@example.com,Madison,WI,2022-05-10,Consumer,Organic Search,Gold,False
+103789,Elliot,Anderson,customer0345@example.com,Miami,FL,2022-05-09,Corporate,Organic Search,Gold,True
+103802,Taylor,Lee,customer0346@example.com,Grand Rapids,MI,2025-11-19,Consumer,Paid Search,Bronze,True
+103810,Cameron,White,customer0347@example.com,Chicago,IL,2023-12-13,Small Business,Email,Silver,True
+103822,Logan,Williams,customer0348@example.com,Cleveland,OH,2023-05-01,Consumer,Referral,Bronze,False
+103835,Robin,Johnson,customer0349@example.com,Austin,TX,2026-08-27,Small Business,Paid Search,Gold,False
+103844,Drew,Williams,customer0350@example.com,Sacramento,CA,2023-11-09,Consumer,Direct,Platinum,True
+103851,Devon,Harris,customer0351@example.com,Sacramento,CA,2022-08-22,Consumer,Direct,Bronze,True
+103867,Robin,White,customer0352@example.com,Rockford,IL,2024-12-29,Consumer,Direct,Bronze,True
+103872,Robin,White,customer0353@example.com,Evansville,IN,2021-03-24,Small Business,Direct,Bronze,True
+103886,Quinn,Harris,customer0354@example.com,Cleveland,OH,2023-04-19,Consumer,Social Media,Bronze,True
+103902,Casey,Johnson,customer0355@example.com,Rochester,MN,2021-07-09,Consumer,Referral,Silver,True
+103906,Quinn,Williams,customer0356@example.com,Sacramento,CA,2023-05-12,Small Business,Organic Search,Silver,True
+103918,Jordan,Davis,customer0357@example.com,Houston,TX,2022-06-01,Consumer,Paid Search,Silver,False
+103934,Robin,Perez,customer0358@example.com,Lansing,MI,2021-08-08,Small Business,Direct,Gold,True
+103940,Parker,Thomas,customer0359@example.com,San Diego,CA,2023-08-23,Consumer,Direct,Silver,True
+103955,Skyler,Anderson,customer0360@example.com,Lansing,MI,2020-03-19,Small Business,Email,Bronze,False
+103960,Elliot,Clark,customer0361@example.com,Fort Wayne,IN,2022-05-13,Consumer,Direct,Bronze,True
+103972,Quinn,Brown,customer0362@example.com,Rockford,IL,2021-02-21,Small Business,Organic Search,Silver,False
+103988,Drew,Rodriguez,customer0363@example.com,Rockford,IL,2022-11-01,Consumer,Referral,Bronze,True
+103995,Quinn,Williams,customer0364@example.com,Rockford,IL,2023-09-25,Small Business,Referral,Bronze,True
+104006,Parker,Wilson,customer0365@example.com,Tampa,FL,2026-01-11,Consumer,Social Media,Bronze,True
+104021,Casey,Harris,customer0366@example.com,Cincinnati,OH,2020-01-07,Consumer,Social Media,Silver,True
+104027,Drew,Thompson,customer0367@example.com,Naperville,IL,2022-01-09,Consumer,Referral,Bronze,False
+104042,Casey,Lewis,customer0368@example.com,Evansville,IN,2025-08-30,Consumer,Social Media,Bronze,True
+104056,Taylor,Clark,customer0369@example.com,Houston,TX,2023-07-28,Consumer,Direct,Gold,False
+104065,Logan,Thomas,customer0370@example.com,Austin,TX,2025-08-13,Consumer,Social Media,Silver,False
+104075,Drew,Garcia,customer0371@example.com,Bloomington,IL,2023-12-10,Consumer,Direct,Bronze,False
+104086,Kendall,Miller,customer0372@example.com,New York,NY,2022-02-12,Corporate,Organic Search,Gold,False
+104094,Casey,Williams,customer0373@example.com,Peoria,IL,2021-06-21,Consumer,Email,Silver,True
+104104,Logan,Thompson,customer0374@example.com,Rockford,IL,2025-01-21,Consumer,Organic Search,Silver,True
+104114,Harper,Anderson,customer0375@example.com,Evansville,IN,2025-02-09,Consumer,Social Media,Gold,True
+104127,Devon,Taylor,customer0376@example.com,New York,NY,2024-08-22,Consumer,Email,Platinum,False
+104138,Riley,Harris,customer0377@example.com,Minneapolis,MN,2023-07-17,Consumer,Email,Gold,False
+104154,Jordan,Moore,customer0378@example.com,Cleveland,OH,2024-03-15,Consumer,Social Media,Bronze,True
+104161,Robin,Harris,customer0379@example.com,Madison,WI,2023-11-01,Consumer,Organic Search,Bronze,False
+104176,Avery,Thompson,customer0380@example.com,Austin,TX,2024-11-26,Consumer,Organic Search,Silver,True
+104184,Kendall,Miller,customer0381@example.com,Cedar Rapids,IA,2021-09-16,Corporate,Paid Search,Silver,True
+104198,Robin,Wilson,customer0382@example.com,Savannah,GA,2022-11-30,Corporate,Email,Bronze,True
+104210,Logan,Moore,customer0383@example.com,Los Angeles,CA,2023-07-03,Consumer,Social Media,Bronze,False
+104216,Devon,Jones,customer0384@example.com,Kansas City,MO,2024-12-09,Consumer,Email,Bronze,True
+104224,Elliot,Lee,customer0385@example.com,Peoria,IL,2021-04-10,Consumer,Paid Search,Bronze,True
+104243,Morgan,Perez,customer0386@example.com,Minneapolis,MN,2025-04-12,Consumer,Organic Search,Silver,True
+104250,Taylor,Garcia,customer0387@example.com,Grand Rapids,MI,2021-11-10,Small Business,Paid Search,Silver,False
+104264,Logan,Jones,customer0388@example.com,Kansas City,MO,2022-11-22,Consumer,Referral,Bronze,True
+104269,Avery,Martin,customer0389@example.com,Rochester,MN,2021-06-09,Consumer,Paid Search,Bronze,True
+104279,Skyler,Johnson,customer0390@example.com,Rochester,MN,2022-02-17,Corporate,Organic Search,Silver,True
+104298,Parker,Davis,customer0391@example.com,Naperville,IL,2022-11-27,Consumer,Organic Search,Bronze,True
+104302,Parker,Davis,customer0392@example.com,Minneapolis,MN,2021-09-03,Consumer,Organic Search,Bronze,True
+104317,Morgan,Clark,customer0393@example.com,Madison,WI,2023-02-24,Consumer,Organic Search,Platinum,True
+104325,Casey,Johnson,customer0394@example.com,Peoria,IL,2023-09-05,Consumer,Direct,Silver,True
+104341,Milan,Jones,customer0395@example.com,Pittsburgh,PA,2024-12-01,Corporate,Organic Search,Silver,True
+104352,Devon,Smith,customer0396@example.com,Detroit,MI,2020-08-04,Corporate,Organic Search,Platinum,True
+104356,Cameron,Miller,customer0397@example.com,St. Louis,MO,2022-01-03,Consumer,Direct,Silver,False
+104375,Sage,Harris,customer0398@example.com,Rockford,IL,2026-06-29,Consumer,Email,Bronze,True
+104384,Morgan,Wilson,customer0399@example.com,Indianapolis,IN,2021-09-17,Consumer,Email,Platinum,True
+104393,Morgan,Johnson,customer0400@example.com,Bloomington,IL,2025-09-24,Consumer,Organic Search,Silver,False
+104406,Elliot,Harris,customer0401@example.com,Rochester,MN,2023-03-09,Consumer,Social Media,Bronze,True
+104412,Morgan,Lee,customer0402@example.com,Tampa,FL,2022-06-13,Consumer,Social Media,Bronze,True
+104430,Alex,Clark,customer0403@example.com,Evansville,IN,2024-05-27,Corporate,Organic Search,Gold,True
+104436,Milan,Jones,customer0404@example.com,Madison,WI,2020-01-28,Consumer,Paid Search,Gold,False
+104450,Alex,Harris,customer0405@example.com,Orlando,FL,2026-03-28,Small Business,Organic Search,Gold,True
+104458,Bailey,Moore,customer0406@example.com,Milwaukee,WI,2021-01-11,Consumer,Organic Search,Bronze,False
+104467,Logan,Thomas,customer0407@example.com,Los Angeles,CA,2024-05-26,Consumer,Social Media,Bronze,True
+104485,Sam,Perez,customer0408@example.com,Green Bay,WI,2026-07-03,Consumer,Social Media,Bronze,True
+104496,Alex,Taylor,customer0409@example.com,Kansas City,MO,2021-09-13,Corporate,Social Media,Gold,False
+104499,Elliot,Taylor,customer0410@example.com,Dallas,TX,2020-11-10,Consumer,Direct,Silver,True
+104514,Sage,Smith,customer0411@example.com,Peoria,IL,2024-10-25,Consumer,Organic Search,Bronze,True
+104522,Parker,Davis,customer0412@example.com,Chicago,IL,2024-01-25,Consumer,Referral,Gold,True
+104537,Casey,Johnson,customer0413@example.com,Rochester,MN,2025-10-25,Consumer,Email,Bronze,False
+104551,Quinn,Clark,customer0414@example.com,Bloomington,IL,2023-10-11,Small Business,Social Media,Bronze,False
+104561,Milan,Lee,customer0415@example.com,Bloomington,IL,2022-08-29,Consumer,Organic Search,Bronze,False
+104567,Taylor,Martin,customer0416@example.com,Milwaukee,WI,2025-03-12,Small Business,Referral,Silver,True
+104580,Jamie,Johnson,customer0417@example.com,Austin,TX,2025-02-27,Consumer,Paid Search,Bronze,True
+104587,Quinn,Wilson,customer0418@example.com,Houston,TX,2026-05-11,Consumer,Social Media,Bronze,True
+104604,Sam,Lee,customer0419@example.com,Madison,WI,2025-09-12,Consumer,Paid Search,Gold,True
+104609,Elliot,Miller,customer0420@example.com,Fort Wayne,IN,2025-10-07,Consumer,Direct,Silver,True
+104625,Jordan,Clark,customer0421@example.com,Peoria,IL,2022-01-08,Consumer,Paid Search,Gold,False
+104635,Morgan,Thomas,customer0422@example.com,Cleveland,OH,2021-03-27,Small Business,Direct,Bronze,False
+104648,Sage,Martin,customer0423@example.com,Colorado Springs,CO,2025-04-17,Small Business,Organic Search,Silver,False
+104658,Riley,Lee,customer0424@example.com,Cedar Rapids,IA,2021-09-01,Consumer,Email,Bronze,True
+104669,Logan,Rodriguez,customer0425@example.com,Milwaukee,WI,2021-07-18,Consumer,Organic Search,Gold,True
+104681,Taylor,Moore,customer0426@example.com,Cincinnati,OH,2024-01-04,Consumer,Organic Search,Silver,True
+104688,Sam,Wilson,customer0427@example.com,Peoria,IL,2023-07-25,Small Business,Email,Gold,False
+104698,Taylor,Anderson,customer0428@example.com,Green Bay,WI,2026-06-19,Consumer,Email,Bronze,True
+104712,Drew,Martin,customer0429@example.com,Rockford,IL,2021-09-03,Small Business,Referral,Bronze,True
+104725,Riley,Martin,customer0430@example.com,Cleveland,OH,2024-06-03,Consumer,Direct,Gold,False
+104737,Jordan,Thomas,customer0431@example.com,Albany,NY,2022-08-14,Consumer,Organic Search,Bronze,True
+104747,Cameron,Clark,customer0432@example.com,Indianapolis,IN,2026-06-21,Consumer,Direct,Bronze,False
+104753,Harper,Clark,customer0433@example.com,Dallas,TX,2021-12-12,Consumer,Paid Search,Silver,True
+104768,Logan,Lewis,customer0434@example.com,Denver,CO,2024-04-19,Consumer,Paid Search,Silver,False
+104774,Casey,Harris,customer0435@example.com,Cincinnati,OH,2023-03-10,Consumer,Email,Bronze,True
+104792,Jordan,Jones,customer0436@example.com,Chicago,IL,2024-03-29,Consumer,Paid Search,Bronze,True
+104799,Elliot,Thomas,customer0437@example.com,Fort Wayne,IN,2021-11-05,Consumer,Email,Platinum,True
+104813,Bailey,Johnson,customer0438@example.com,Tampa,FL,2023-08-20,Consumer,Organic Search,Silver,False
+104820,Harper,Martin,customer0439@example.com,Buffalo,NY,2023-10-10,Small Business,Paid Search,Bronze,True
+104834,Robin,Williams,customer0440@example.com,Philadelphia,PA,2020-05-19,Consumer,Referral,Silver,False
+104848,Parker,Taylor,customer0441@example.com,Dallas,TX,2020-12-28,Consumer,Organic Search,Silver,True
+104855,Avery,Brown,customer0442@example.com,Chicago,IL,2025-10-04,Consumer,Paid Search,Bronze,True
+104864,Kendall,Perez,customer0443@example.com,Colorado Springs,CO,2023-02-15,Corporate,Direct,Bronze,False
+104881,Morgan,Rodriguez,customer0444@example.com,Cedar Rapids,IA,2022-02-03,Consumer,Organic Search,Bronze,True
+104891,Jamie,Harris,customer0445@example.com,Cedar Rapids,IA,2021-12-29,Consumer,Email,Platinum,False
+104902,Jamie,Brown,customer0446@example.com,Bloomington,IL,2026-08-14,Small Business,Paid Search,Bronze,True
+104907,Robin,Garcia,customer0447@example.com,Colorado Springs,CO,2025-02-04,Consumer,Organic Search,Bronze,True
+104918,Harper,Anderson,customer0448@example.com,Houston,TX,2021-09-22,Small Business,Organic Search,Bronze,True
+104933,Milan,Williams,customer0449@example.com,Rockford,IL,2021-08-23,Consumer,Email,Bronze,True
+104947,Drew,Wilson,customer0450@example.com,Bloomington,IL,2023-09-17,Consumer,Direct,Silver,False
+104952,Parker,Perez,customer0451@example.com,Denver,CO,2024-12-21,Corporate,Paid Search,Bronze,True
+104962,Jamie,Jones,customer0452@example.com,Bloomington,IL,2024-05-10,Consumer,Paid Search,Silver,False
+104979,Alex,Thomas,customer0453@example.com,Cedar Rapids,IA,2024-07-08,Small Business,Paid Search,Bronze,True
+104990,Sam,Jones,customer0454@example.com,Green Bay,WI,2020-12-24,Consumer,Referral,Silver,False
+104995,Taylor,Wilson,customer0455@example.com,Naperville,IL,2025-04-15,Consumer,Organic Search,Silver,True
+105012,Logan,Moore,customer0456@example.com,Grand Rapids,MI,2025-06-02,Consumer,Social Media,Bronze,True
+105017,Casey,Anderson,customer0457@example.com,Chicago,IL,2023-01-03,Consumer,Paid Search,Bronze,False
+105034,Robin,Lewis,customer0458@example.com,Duluth,MN,2026-05-26,Corporate,Paid Search,Bronze,True
+105043,Casey,Thompson,customer0459@example.com,Green Bay,WI,2021-11-21,Small Business,Social Media,Platinum,True
+105051,Casey,Moore,customer0460@example.com,Green Bay,WI,2025-05-18,Consumer,Organic Search,Gold,True
+105060,Morgan,Perez,customer0461@example.com,Milwaukee,WI,2021-11-02,Consumer,Organic Search,Silver,True
+105075,Riley,Garcia,customer0462@example.com,Cleveland,OH,2023-10-17,Consumer,Organic Search,Bronze,False
+105085,Parker,Perez,customer0463@example.com,Savannah,GA,2022-03-07,Corporate,Social Media,Silver,False
+105094,Cameron,Miller,customer0464@example.com,Houston,TX,2020-12-09,Small Business,Social Media,Silver,True
+105112,Cameron,Jones,customer0465@example.com,Peoria,IL,2024-04-05,Consumer,Paid Search,Bronze,True
+105123,Taylor,Perez,customer0466@example.com,Des Moines,IA,2024-06-16,Consumer,Paid Search,Bronze,True
+105128,Riley,Lewis,customer0467@example.com,Lansing,MI,2024-02-28,Consumer,Social Media,Silver,False
+105142,Bailey,Johnson,customer0468@example.com,Austin,TX,2024-10-31,Consumer,Social Media,Bronze,False
+105149,Jordan,Clark,customer0469@example.com,Green Bay,WI,2022-12-28,Corporate,Email,Bronze,True
+105163,Elliot,Miller,customer0470@example.com,Rockford,IL,2021-09-19,Consumer,Organic Search,Gold,False
+105176,Devon,Clark,customer0471@example.com,Minneapolis,MN,2025-04-09,Consumer,Organic Search,Silver,True
+105188,Elliot,Thompson,customer0472@example.com,Peoria,IL,2024-02-19,Consumer,Organic Search,Bronze,False
+105196,Kendall,Davis,customer0473@example.com,Sacramento,CA,2023-09-10,Small Business,Paid Search,Gold,True
+105209,Drew,Martin,customer0474@example.com,Indianapolis,IN,2024-01-20,Corporate,Paid Search,Bronze,True
+105214,Riley,Martin,customer0475@example.com,Grand Rapids,MI,2021-04-04,Consumer,Direct,Bronze,True
+105232,Robin,Miller,customer0476@example.com,Madison,WI,2022-05-10,Small Business,Organic Search,Bronze,True
+105238,Quinn,Anderson,customer0477@example.com,Springfield,MO,2025-07-23,Consumer,Referral,Bronze,True
+105252,Reese,Jones,customer0478@example.com,Peoria,IL,2025-05-03,Consumer,Paid Search,Silver,True
+105266,Sam,Brown,customer0479@example.com,Rochester,MN,2026-04-09,Consumer,Email,Bronze,True
+105272,Robin,Brown,customer0480@example.com,Rochester,MN,2023-03-23,Consumer,Paid Search,Bronze,False
+105287,Avery,Jones,customer0481@example.com,St. Louis,MO,2022-09-02,Consumer,Direct,Bronze,False
+105291,Drew,Taylor,customer0482@example.com,Rockford,IL,2020-11-26,Consumer,Paid Search,Bronze,False
+105308,Avery,Garcia,customer0483@example.com,Cleveland,OH,2021-12-28,Consumer,Direct,Gold,True
+105318,Jamie,Garcia,customer0484@example.com,Fort Wayne,IN,2026-05-26,Consumer,Social Media,Platinum,True
+105332,Robin,Lee,customer0485@example.com,Madison,WI,2025-11-23,Consumer,Direct,Bronze,False
+105342,Alex,Williams,customer0486@example.com,Colorado Springs,CO,2020-12-04,Consumer,Organic Search,Silver,False
+105354,Robin,Davis,customer0487@example.com,Bloomington,IL,2023-07-16,Consumer,Direct,Gold,False
+105362,Jordan,Johnson,customer0488@example.com,Cleveland,OH,2025-08-06,Consumer,Social Media,Bronze,False
+105375,Devon,Clark,customer0489@example.com,Naperville,IL,2023-08-16,Consumer,Paid Search,Bronze,True
+105383,Sam,Smith,customer0490@example.com,Los Angeles,CA,2023-06-06,Consumer,Direct,Gold,True
+105396,Casey,Rodriguez,customer0491@example.com,Springfield,MO,2020-09-25,Consumer,Social Media,Bronze,False
+105406,Reese,Thomas,customer0492@example.com,Denver,CO,2022-09-13,Small Business,Social Media,Silver,False
+105418,Jordan,White,customer0493@example.com,Evansville,IN,2025-01-05,Consumer,Paid Search,Bronze,True
+105426,Parker,Thompson,customer0494@example.com,Cedar Rapids,IA,2020-07-05,Consumer,Organic Search,Bronze,True
+105435,Reese,Perez,customer0495@example.com,Orlando,FL,2020-12-30,Consumer,Referral,Bronze,False
+105453,Cameron,Harris,customer0496@example.com,Houston,TX,2022-04-04,Consumer,Organic Search,Bronze,False
+105457,Casey,Brown,customer0497@example.com,San Diego,CA,2021-12-25,Corporate,Organic Search,Gold,True
+105472,Quinn,Thompson,customer0498@example.com,San Diego,CA,2026-04-16,Consumer,Paid Search,Silver,False
+105480,Jamie,Harris,customer0499@example.com,Cedar Rapids,IA,2022-08-11,Consumer,Direct,Bronze,True
+105497,Jordan,Johnson,customer0500@example.com,Minneapolis,MN,2022-01-08,Consumer,Social Media,Bronze,False
+105502,Milan,Anderson,customer0501@example.com,Orlando,FL,2021-02-27,Consumer,Social Media,Silver,False
+105519,Robin,Jones,customer0502@example.com,Duluth,MN,2026-04-02,Consumer,Referral,Silver,False
+105530,Casey,Anderson,customer0503@example.com,Evansville,IN,2024-02-21,Consumer,Organic Search,Gold,True
+105538,Riley,Taylor,customer0504@example.com,Rockford,IL,2023-05-06,Small Business,Email,Silver,True
+105548,Bailey,Anderson,customer0505@example.com,Albany,NY,2026-01-15,Consumer,Organic Search,Silver,False
+105563,Sam,Lee,customer0506@example.com,Duluth,MN,2022-10-11,Consumer,Referral,Silver,True
+105570,Kendall,Smith,customer0507@example.com,Savannah,GA,2024-01-16,Corporate,Direct,Gold,False
+105582,Harper,Brown,customer0508@example.com,Cedar Rapids,IA,2024-09-28,Consumer,Social Media,Silver,True
+105592,Sage,Clark,customer0509@example.com,New York,NY,2025-08-24,Consumer,Social Media,Bronze,True
+105606,Cameron,Clark,customer0510@example.com,Rockford,IL,2020-09-25,Small Business,Social Media,Bronze,True
+105613,Sage,Johnson,customer0511@example.com,Cincinnati,OH,2020-01-09,Consumer,Referral,Bronze,True
+105628,Riley,Perez,customer0512@example.com,Rockford,IL,2021-02-06,Consumer,Direct,Silver,False
+105638,Casey,Lewis,customer0513@example.com,Indianapolis,IN,2020-12-01,Consumer,Social Media,Platinum,True
+105643,Bailey,Brown,customer0514@example.com,New York,NY,2022-03-19,Small Business,Social Media,Bronze,True
+105654,Robin,Anderson,customer0515@example.com,Madison,WI,2020-04-06,Consumer,Direct,Silver,True
+105667,Skyler,Miller,customer0516@example.com,Dallas,TX,2025-05-11,Consumer,Direct,Bronze,False
+105684,Devon,Lee,customer0517@example.com,Sacramento,CA,2025-04-09,Consumer,Referral,Bronze,False
+105687,Milan,Jones,customer0518@example.com,Rockford,IL,2025-10-09,Consumer,Social Media,Bronze,True
+105701,Sam,Anderson,customer0519@example.com,Sacramento,CA,2022-10-31,Small Business,Organic Search,Silver,False
+105716,Logan,Taylor,customer0520@example.com,Grand Rapids,MI,2021-09-20,Consumer,Direct,Gold,True
+105722,Robin,Thompson,customer0521@example.com,Cleveland,OH,2025-01-01,Consumer,Referral,Bronze,False
+105739,Parker,Lewis,customer0522@example.com,Peoria,IL,2025-03-24,Consumer,Direct,Gold,False
+105749,Jamie,Davis,customer0523@example.com,Savannah,GA,2021-08-07,Consumer,Organic Search,Silver,True
+105761,Drew,Davis,customer0524@example.com,Colorado Springs,CO,2022-12-09,Consumer,Organic Search,Bronze,True
+105768,Milan,Miller,customer0525@example.com,Evansville,IN,2022-05-24,Consumer,Email,Gold,True
+105782,Quinn,Lee,customer0526@example.com,Dallas,TX,2024-05-26,Consumer,Organic Search,Bronze,False
+105794,Sage,Rodriguez,customer0527@example.com,Cedar Rapids,IA,2021-08-24,Consumer,Referral,Silver,True
+105798,Bailey,Lewis,customer0528@example.com,Tampa,FL,2021-11-10,Consumer,Email,Bronze,True
+105814,Reese,Thomas,customer0529@example.com,Atlanta,GA,2023-06-20,Consumer,Social Media,Bronze,False
+105823,Jordan,Wilson,customer0530@example.com,Evansville,IN,2024-01-07,Small Business,Social Media,Bronze,True
+105831,Parker,Martin,customer0531@example.com,Sacramento,CA,2024-05-31,Consumer,Referral,Bronze,True
+105845,Sage,Lee,customer0532@example.com,Indianapolis,IN,2021-03-08,Small Business,Paid Search,Bronze,True
+105855,Sam,Rodriguez,customer0533@example.com,Evansville,IN,2025-02-09,Consumer,Organic Search,Bronze,False
+105867,Casey,Brown,customer0534@example.com,Rockford,IL,2022-02-17,Consumer,Direct,Gold,False
+105877,Avery,Johnson,customer0535@example.com,Evansville,IN,2021-09-04,Consumer,Organic Search,Bronze,True
+105893,Avery,Clark,customer0536@example.com,Detroit,MI,2022-10-25,Consumer,Paid Search,Bronze,False
+105896,Morgan,Moore,customer0537@example.com,Orlando,FL,2022-07-03,Consumer,Paid Search,Bronze,False
+105914,Morgan,Lewis,customer0538@example.com,Bloomington,IL,2022-02-27,Consumer,Social Media,Bronze,True
+105918,Sam,Garcia,customer0539@example.com,Madison,WI,2022-06-26,Consumer,Paid Search,Bronze,True
+105936,Kendall,Clark,customer0540@example.com,Bloomington,IL,2026-05-22,Consumer,Referral,Bronze,True
+105944,Quinn,Wilson,customer0541@example.com,Chicago,IL,2023-03-30,Consumer,Direct,Bronze,True
+105952,Elliot,White,customer0542@example.com,St. Louis,MO,2020-03-01,Consumer,Organic Search,Bronze,False
+105970,Sage,Johnson,customer0543@example.com,Detroit,MI,2025-11-30,Small Business,Referral,Platinum,False
+105979,Riley,Johnson,customer0544@example.com,Buffalo,NY,2024-12-03,Small Business,Email,Gold,False
+105991,Riley,Wilson,customer0545@example.com,Columbus,OH,2021-02-09,Consumer,Direct,Bronze,False
+105995,Drew,White,customer0546@example.com,Sacramento,CA,2024-04-12,Corporate,Organic Search,Silver,False
+106007,Quinn,Wilson,customer0547@example.com,Colorado Springs,CO,2021-06-02,Consumer,Social Media,Bronze,False
+106025,Logan,Lee,customer0548@example.com,Indianapolis,IN,2026-01-30,Consumer,Referral,Bronze,True
+106036,Robin,Rodriguez,customer0549@example.com,Indianapolis,IN,2020-03-07,Consumer,Organic Search,Silver,True
+106040,Quinn,Garcia,customer0550@example.com,Tampa,FL,2025-09-29,Consumer,Organic Search,Bronze,True
+106057,Elliot,Rodriguez,customer0551@example.com,Cincinnati,OH,2021-01-22,Consumer,Paid Search,Bronze,True
+106063,Alex,Anderson,customer0552@example.com,Colorado Springs,CO,2025-01-14,Consumer,Direct,Bronze,True
+106075,Riley,Harris,customer0553@example.com,Evansville,IN,2025-05-21,Small Business,Social Media,Bronze,False
+106089,Skyler,Perez,customer0554@example.com,Cedar Rapids,IA,2020-05-23,Corporate,Direct,Silver,False
+106095,Reese,Lewis,customer0555@example.com,Los Angeles,CA,2022-05-20,Consumer,Organic Search,Silver,False
+106107,Casey,Lee,customer0556@example.com,Peoria,IL,2023-04-18,Small Business,Direct,Bronze,True
+106119,Alex,Rodriguez,customer0557@example.com,Colorado Springs,CO,2021-04-22,Consumer,Paid Search,Silver,True
+106130,Robin,Rodriguez,customer0558@example.com,Madison,WI,2026-06-10,Consumer,Organic Search,Silver,False
+106142,Bailey,White,customer0559@example.com,St. Louis,MO,2023-04-19,Consumer,Paid Search,Bronze,True
+106153,Elliot,Thomas,customer0560@example.com,Green Bay,WI,2025-03-21,Consumer,Organic Search,Bronze,False
+106163,Jordan,Lewis,customer0561@example.com,Des Moines,IA,2024-02-20,Small Business,Social Media,Bronze,True
+106178,Drew,Garcia,customer0562@example.com,Naperville,IL,2026-04-11,Consumer,Paid Search,Bronze,True
+106190,Milan,Wilson,customer0563@example.com,Springfield,MO,2025-05-14,Small Business,Email,Silver,True
+106194,Elliot,Wilson,customer0564@example.com,Dallas,TX,2025-08-22,Consumer,Paid Search,Bronze,False
+106207,Avery,Jones,customer0565@example.com,Cedar Rapids,IA,2024-02-12,Consumer,Paid Search,Bronze,True
+106217,Robin,Harris,customer0566@example.com,Grand Rapids,MI,2023-03-11,Consumer,Organic Search,Gold,True
+106232,Milan,Thompson,customer0567@example.com,Kansas City,MO,2025-10-13,Consumer,Email,Platinum,True
+106245,Harper,Miller,customer0568@example.com,Austin,TX,2024-04-23,Consumer,Organic Search,Bronze,True
+106249,Logan,Martin,customer0569@example.com,Green Bay,WI,2026-04-16,Consumer,Email,Bronze,False
+106264,Taylor,White,customer0570@example.com,Detroit,MI,2022-06-17,Consumer,Organic Search,Bronze,True
+106270,Sam,Perez,customer0571@example.com,St. Louis,MO,2020-01-20,Corporate,Paid Search,Silver,True
+106289,Casey,Garcia,customer0572@example.com,Cedar Rapids,IA,2022-04-22,Consumer,Paid Search,Bronze,True
+106300,Robin,Brown,customer0573@example.com,Bloomington,IL,2023-11-25,Consumer,Organic Search,Platinum,True
+106310,Taylor,Perez,customer0574@example.com,Grand Rapids,MI,2026-09-13,Consumer,Direct,Silver,True
+106314,Robin,Jones,customer0575@example.com,Pittsburgh,PA,2021-07-09,Corporate,Direct,Gold,True
+106332,Bailey,Johnson,customer0576@example.com,Rockford,IL,2020-04-06,Consumer,Social Media,Silver,False
+106343,Harper,Wilson,customer0577@example.com,Des Moines,IA,2024-12-24,Consumer,Organic Search,Bronze,True
+106353,Cameron,Smith,customer0578@example.com,Sacramento,CA,2022-02-01,Consumer,Social Media,Bronze,False
+106361,Bailey,Williams,customer0579@example.com,Los Angeles,CA,2023-01-29,Consumer,Referral,Silver,True
+106375,Parker,Williams,customer0580@example.com,Albany,NY,2025-11-29,Consumer,Paid Search,Bronze,True
+106380,Taylor,Lee,customer0581@example.com,Minneapolis,MN,2022-08-06,Consumer,Organic Search,Gold,True
+106395,Skyler,Garcia,customer0582@example.com,Denver,CO,2024-06-06,Consumer,Social Media,Silver,False
+106408,Parker,Taylor,customer0583@example.com,Naperville,IL,2020-08-21,Consumer,Social Media,Silver,True
+106419,Reese,Williams,customer0584@example.com,Cincinnati,OH,2026-02-07,Consumer,Paid Search,Silver,True
+106432,Casey,Clark,customer0585@example.com,Peoria,IL,2022-05-31,Consumer,Organic Search,Silver,True
+106436,Riley,Thompson,customer0586@example.com,Orlando,FL,2020-06-27,Consumer,Organic Search,Gold,True
+106454,Casey,Davis,customer0587@example.com,Detroit,MI,2022-03-30,Corporate,Email,Bronze,True
+106457,Drew,Martin,customer0588@example.com,Pittsburgh,PA,2026-06-07,Corporate,Organic Search,Bronze,True
+106476,Reese,Davis,customer0589@example.com,Bloomington,IL,2020-11-13,Consumer,Paid Search,Bronze,True
+106486,Parker,Jones,customer0590@example.com,Peoria,IL,2024-08-29,Consumer,Organic Search,Platinum,True
+106493,Sage,Brown,customer0591@example.com,Minneapolis,MN,2024-10-22,Consumer,Organic Search,Bronze,True
+106507,Devon,Smith,customer0592@example.com,Columbus,OH,2021-04-27,Consumer,Organic Search,Bronze,True
+106515,Taylor,Brown,customer0593@example.com,Evansville,IN,2020-01-22,Consumer,Organic Search,Bronze,False
+106523,Robin,Harris,customer0594@example.com,Philadelphia,PA,2022-06-30,Corporate,Paid Search,Bronze,True
+106537,Sage,Johnson,customer0595@example.com,Fort Wayne,IN,2021-08-16,Consumer,Social Media,Bronze,True
+106552,Avery,Thompson,customer0596@example.com,Austin,TX,2020-02-04,Consumer,Direct,Bronze,True
+106556,Casey,Perez,customer0597@example.com,Fort Wayne,IN,2020-06-10,Consumer,Organic Search,Silver,True
+106570,Sage,White,customer0598@example.com,Peoria,IL,2023-04-28,Corporate,Organic Search,Silver,True
+106583,Avery,Wilson,customer0599@example.com,Indianapolis,IN,2025-06-13,Consumer,Email,Bronze,True
+106597,Avery,Moore,customer0600@example.com,Madison,WI,2023-01-14,Corporate,Referral,Platinum,False
+106604,Jordan,Thompson,customer0601@example.com,Springfield,MO,2024-01-14,Corporate,Social Media,Bronze,False
+106613,Elliot,Lewis,customer0602@example.com,Rochester,MN,2023-03-22,Consumer,Paid Search,Bronze,False
+106630,Kendall,Johnson,customer0603@example.com,Grand Rapids,MI,2020-04-12,Consumer,Referral,Bronze,False
+106639,Logan,Anderson,customer0604@example.com,Cincinnati,OH,2025-07-05,Consumer,Organic Search,Bronze,True
+106650,Skyler,Jones,customer0605@example.com,Dallas,TX,2022-12-16,Consumer,Social Media,Bronze,False
+106661,Riley,Thompson,customer0606@example.com,Buffalo,NY,2026-05-15,Consumer,Direct,Bronze,False
+106669,Avery,Wilson,customer0607@example.com,Atlanta,GA,2024-12-18,Consumer,Social Media,Bronze,False
+106684,Jordan,Thompson,customer0608@example.com,Madison,WI,2024-09-19,Consumer,Direct,Bronze,True
+106694,Sam,Perez,customer0609@example.com,St. Louis,MO,2024-01-15,Consumer,Organic Search,Bronze,False
+106705,Avery,Rodriguez,customer0610@example.com,Minneapolis,MN,2022-10-25,Consumer,Social Media,Bronze,True
+106715,Elliot,Williams,customer0611@example.com,Dallas,TX,2020-09-18,Consumer,Direct,Silver,True
+106726,Taylor,Thompson,customer0612@example.com,Bloomington,IL,2022-01-28,Consumer,Organic Search,Silver,False
+106732,Cameron,Taylor,customer0613@example.com,Evansville,IN,2021-01-05,Consumer,Social Media,Silver,False
+106743,Taylor,Miller,customer0614@example.com,Tampa,FL,2021-06-21,Consumer,Email,Silver,True
+106762,Jamie,Lee,customer0615@example.com,Miami,FL,2024-07-12,Consumer,Email,Gold,True
+106770,Drew,Smith,customer0616@example.com,Milwaukee,WI,2020-08-21,Small Business,Referral,Silver,False
+106779,Sage,Brown,customer0617@example.com,Green Bay,WI,2025-10-27,Small Business,Paid Search,Silver,False
+106794,Avery,Harris,customer0618@example.com,Sacramento,CA,2023-12-15,Small Business,Paid Search,Platinum,True
+106801,Reese,Davis,customer0619@example.com,Cincinnati,OH,2025-05-27,Small Business,Direct,Silver,True
+106814,Drew,Taylor,customer0620@example.com,Grand Rapids,MI,2023-03-20,Consumer,Social Media,Bronze,True
+106828,Elliot,Thomas,customer0621@example.com,Buffalo,NY,2025-02-01,Small Business,Paid Search,Silver,True
+106835,Parker,Perez,customer0622@example.com,Grand Rapids,MI,2024-10-03,Consumer,Paid Search,Bronze,False
+106849,Morgan,Lee,customer0623@example.com,Grand Rapids,MI,2020-07-08,Consumer,Social Media,Bronze,True
+106856,Parker,Anderson,customer0624@example.com,Rochester,MN,2022-10-15,Consumer,Direct,Bronze,True
+106864,Bailey,Davis,customer0625@example.com,Evansville,IN,2024-06-17,Consumer,Direct,Bronze,False
+106877,Alex,Rodriguez,customer0626@example.com,Evansville,IN,2023-07-07,Consumer,Paid Search,Silver,True
+106892,Drew,Jones,customer0627@example.com,Atlanta,GA,2021-05-05,Corporate,Paid Search,Gold,True
+106902,Avery,Taylor,customer0628@example.com,Des Moines,IA,2024-09-27,Corporate,Email,Gold,False
+106915,Sam,Clark,customer0629@example.com,Peoria,IL,2025-11-29,Consumer,Direct,Gold,True
+106923,Kendall,Clark,customer0630@example.com,Naperville,IL,2024-09-09,Consumer,Social Media,Bronze,False
+106937,Riley,Thomas,customer0631@example.com,Minneapolis,MN,2024-01-27,Consumer,Social Media,Bronze,False
+106943,Sage,Thompson,customer0632@example.com,Naperville,IL,2025-08-09,Consumer,Organic Search,Gold,True
+106954,Sam,Clark,customer0633@example.com,Des Moines,IA,2020-03-11,Small Business,Organic Search,Bronze,True
+106971,Jordan,Williams,customer0634@example.com,Evansville,IN,2025-01-02,Consumer,Paid Search,Bronze,True
+106974,Alex,Moore,customer0635@example.com,Minneapolis,MN,2020-07-29,Consumer,Organic Search,Platinum,False
+106988,Taylor,Jones,customer0636@example.com,Indianapolis,IN,2021-03-30,Consumer,Paid Search,Bronze,True
+106999,Logan,Martin,customer0637@example.com,Orlando,FL,2024-10-13,Consumer,Social Media,Bronze,False
+107007,Devon,Clark,customer0638@example.com,Rockford,IL,2024-01-17,Consumer,Referral,Bronze,True
+107025,Harper,Lee,customer0639@example.com,Detroit,MI,2025-05-30,Consumer,Email,Gold,False
+107029,Sam,Thompson,customer0640@example.com,Cleveland,OH,2025-10-27,Consumer,Email,Bronze,False
+107040,Alex,Perez,customer0641@example.com,Peoria,IL,2026-07-19,Small Business,Paid Search,Bronze,True
+107059,Drew,Smith,customer0642@example.com,Duluth,MN,2021-04-24,Small Business,Organic Search,Bronze,True
+107068,Riley,Brown,customer0643@example.com,Atlanta,GA,2026-03-21,Corporate,Direct,Bronze,False
+107081,Casey,Davis,customer0644@example.com,St. Louis,MO,2021-11-14,Consumer,Paid Search,Gold,False
+107092,Cameron,Thomas,customer0645@example.com,Dallas,TX,2023-05-27,Consumer,Referral,Gold,True
+107101,Taylor,Thomas,customer0646@example.com,Naperville,IL,2026-09-11,Consumer,Direct,Bronze,False
+107113,Bailey,Davis,customer0647@example.com,Bloomington,IL,2026-07-21,Consumer,Organic Search,Gold,True
+107121,Harper,Williams,customer0648@example.com,Tampa,FL,2022-05-20,Consumer,Direct,Silver,True
+107128,Taylor,Taylor,customer0649@example.com,Naperville,IL,2021-04-23,Consumer,Referral,Bronze,True
+107145,Sam,Lee,customer0650@example.com,Minneapolis,MN,2020-07-02,Consumer,Email,Bronze,False
+107150,Milan,Garcia,customer0651@example.com,Philadelphia,PA,2022-02-17,Consumer,Organic Search,Silver,True
+107168,Skyler,Clark,customer0652@example.com,Colorado Springs,CO,2022-05-08,Consumer,Social Media,Gold,True
+107173,Logan,Johnson,customer0653@example.com,Los Angeles,CA,2021-11-19,Consumer,Direct,Gold,False
+107186,Milan,White,customer0654@example.com,Grand Rapids,MI,2020-01-08,Small Business,Social Media,Silver,True
+107198,Jordan,Williams,customer0655@example.com,Evansville,IN,2025-12-21,Consumer,Referral,Gold,False
+107209,Sam,White,customer0656@example.com,Chicago,IL,2023-09-11,Corporate,Organic Search,Bronze,False
+107218,Quinn,Smith,customer0657@example.com,Bloomington,IL,2021-09-25,Consumer,Social Media,Gold,True
+107229,Milan,Taylor,customer0658@example.com,Chicago,IL,2020-02-14,Consumer,Organic Search,Silver,False
+107242,Riley,White,customer0659@example.com,Austin,TX,2023-01-17,Consumer,Referral,Bronze,True
+107255,Harper,Thompson,customer0660@example.com,Kansas City,MO,2025-11-19,Consumer,Direct,Silver,False
+107266,Sage,Jones,customer0661@example.com,Green Bay,WI,2024-09-10,Small Business,Organic Search,Silver,False
+107272,Logan,Thomas,customer0662@example.com,Philadelphia,PA,2023-04-06,Small Business,Organic Search,Bronze,True
+107283,Skyler,Davis,customer0663@example.com,Chicago,IL,2024-10-19,Consumer,Organic Search,Silver,True
+107298,Devon,Harris,customer0664@example.com,Cedar Rapids,IA,2022-11-24,Consumer,Email,Bronze,False
+107309,Alex,Clark,customer0665@example.com,Peoria,IL,2026-06-07,Consumer,Organic Search,Bronze,False
+107322,Kendall,Davis,customer0666@example.com,Colorado Springs,CO,2023-07-02,Consumer,Organic Search,Silver,True
+107334,Reese,Moore,customer0667@example.com,Indianapolis,IN,2020-10-26,Consumer,Email,Bronze,True
+107343,Taylor,Harris,customer0668@example.com,Fort Wayne,IN,2025-02-05,Small Business,Organic Search,Gold,False
+107351,Milan,Williams,customer0669@example.com,Austin,TX,2023-06-02,Consumer,Social Media,Silver,False
+107363,Casey,Taylor,customer0670@example.com,Lansing,MI,2020-02-17,Small Business,Organic Search,Bronze,True
+107372,Sage,Taylor,customer0671@example.com,Dallas,TX,2021-07-09,Consumer,Referral,Silver,True
+107386,Morgan,Williams,customer0672@example.com,Chicago,IL,2021-01-04,Consumer,Paid Search,Bronze,True
+107396,Robin,Thomas,customer0673@example.com,Fort Wayne,IN,2022-05-17,Consumer,Organic Search,Bronze,True
+107404,Casey,Williams,customer0674@example.com,Bloomington,IL,2023-12-21,Consumer,Direct,Gold,True
+107420,Robin,Thompson,customer0675@example.com,Duluth,MN,2020-01-14,Small Business,Organic Search,Bronze,True
+107433,Skyler,Brown,customer0676@example.com,Chicago,IL,2023-10-22,Consumer,Direct,Gold,True
+107437,Parker,Thompson,customer0677@example.com,Columbus,OH,2024-08-03,Consumer,Social Media,Bronze,False
+107452,Reese,Smith,customer0678@example.com,Pittsburgh,PA,2022-07-23,Consumer,Email,Silver,True
+107464,Reese,Williams,customer0679@example.com,Rockford,IL,2024-07-04,Consumer,Referral,Bronze,True
+107472,Bailey,Perez,customer0680@example.com,Milwaukee,WI,2023-12-01,Corporate,Organic Search,Bronze,True
+107486,Riley,Jones,customer0681@example.com,Kansas City,MO,2026-09-13,Consumer,Direct,Bronze,False
+107495,Cameron,Lee,customer0682@example.com,Bloomington,IL,2026-08-27,Consumer,Email,Silver,True
+107503,Riley,Moore,customer0683@example.com,San Diego,CA,2022-11-04,Consumer,Email,Gold,True
+107519,Drew,Lee,customer0684@example.com,New York,NY,2026-07-04,Consumer,Referral,Bronze,True
+107529,Cameron,Davis,customer0685@example.com,Duluth,MN,2026-09-10,Small Business,Direct,Bronze,True
+107542,Devon,Harris,customer0686@example.com,Detroit,MI,2023-07-10,Consumer,Social Media,Gold,False
+107553,Morgan,Jones,customer0687@example.com,Peoria,IL,2024-07-07,Consumer,Social Media,Bronze,True
+107557,Reese,Anderson,customer0688@example.com,Lansing,MI,2023-01-19,Consumer,Referral,Bronze,True
+107574,Quinn,Martin,customer0689@example.com,Cleveland,OH,2025-10-06,Consumer,Organic Search,Bronze,True
+107585,Elliot,Harris,customer0690@example.com,Milwaukee,WI,2025-11-19,Small Business,Organic Search,Bronze,True
+107594,Quinn,Harris,customer0691@example.com,Sacramento,CA,2026-03-21,Consumer,Social Media,Silver,False
+107604,Kendall,Anderson,customer0692@example.com,Indianapolis,IN,2025-09-14,Consumer,Referral,Bronze,False
+107618,Quinn,Wilson,customer0693@example.com,Cincinnati,OH,2023-05-14,Consumer,Email,Gold,True
+107630,Bailey,Davis,customer0694@example.com,Grand Rapids,MI,2023-05-17,Consumer,Organic Search,Platinum,True
+107640,Cameron,Taylor,customer0695@example.com,Grand Rapids,MI,2023-07-09,Corporate,Paid Search,Silver,True
+107646,Bailey,Miller,customer0696@example.com,Rockford,IL,2021-11-04,Consumer,Organic Search,Silver,True
+107664,Riley,Lewis,customer0697@example.com,Houston,TX,2025-10-11,Consumer,Organic Search,Silver,False
+107667,Sage,Martin,customer0698@example.com,Evansville,IN,2025-02-28,Consumer,Referral,Bronze,False
+107681,Robin,Wilson,customer0699@example.com,Houston,TX,2021-06-03,Consumer,Social Media,Bronze,False
+107690,Skyler,Lewis,customer0700@example.com,Naperville,IL,2020-04-01,Consumer,Direct,Bronze,False
+107702,Elliot,Wilson,customer0701@example.com,Bloomington,IL,2025-08-04,Consumer,Email,Gold,False
+107715,Harper,Jones,customer0702@example.com,Pittsburgh,PA,2023-04-13,Consumer,Referral,Silver,False
+107728,Taylor,Martin,customer0703@example.com,Springfield,MO,2021-03-27,Consumer,Social Media,Silver,True
+107740,Bailey,Taylor,customer0704@example.com,Evansville,IN,2025-12-04,Corporate,Paid Search,Bronze,True
+107752,Milan,Moore,customer0705@example.com,Lansing,MI,2023-01-18,Corporate,Direct,Silver,False
+107755,Parker,Thompson,customer0706@example.com,Green Bay,WI,2024-03-06,Small Business,Organic Search,Bronze,False
+107767,Morgan,Davis,customer0707@example.com,Albany,NY,2022-11-21,Consumer,Social Media,Bronze,True
+107782,Riley,Clark,customer0708@example.com,Rockford,IL,2022-01-13,Consumer,Social Media,Silver,True
+107788,Bailey,Clark,customer0709@example.com,Colorado Springs,CO,2025-01-19,Small Business,Organic Search,Silver,False
+107804,Skyler,Brown,customer0710@example.com,Milwaukee,WI,2024-04-13,Consumer,Paid Search,Bronze,True
+107811,Cameron,Davis,customer0711@example.com,Green Bay,WI,2023-07-31,Consumer,Organic Search,Bronze,False
+107829,Sam,White,customer0712@example.com,Rockford,IL,2021-10-26,Consumer,Organic Search,Bronze,True
+107835,Robin,Thomas,customer0713@example.com,Naperville,IL,2022-05-06,Corporate,Direct,Bronze,True
+107850,Harper,White,customer0714@example.com,Cincinnati,OH,2021-10-30,Small Business,Referral,Bronze,True
+107862,Casey,Thomas,customer0715@example.com,Detroit,MI,2025-04-23,Small Business,Organic Search,Silver,True
+107872,Morgan,Wilson,customer0716@example.com,Kansas City,MO,2025-11-01,Corporate,Social Media,Bronze,True
+107877,Morgan,Jones,customer0717@example.com,Grand Rapids,MI,2024-04-20,Consumer,Direct,Bronze,True
+107891,Quinn,Martin,customer0718@example.com,Milwaukee,WI,2025-06-09,Consumer,Paid Search,Silver,True
+107906,Kendall,Thomas,customer0719@example.com,Naperville,IL,2022-09-28,Consumer,Direct,Platinum,True
+107910,Robin,Martin,customer0720@example.com,Dallas,TX,2020-11-20,Consumer,Direct,Bronze,True
+107921,Drew,Johnson,customer0721@example.com,Cincinnati,OH,2022-10-28,Consumer,Social Media,Bronze,False
+107932,Alex,Anderson,customer0722@example.com,Albany,NY,2025-09-29,Consumer,Email,Bronze,True
+107943,Harper,Garcia,customer0723@example.com,Duluth,MN,2025-12-17,Corporate,Social Media,Bronze,True
+107956,Logan,Garcia,customer0724@example.com,Rockford,IL,2025-03-15,Consumer,Organic Search,Bronze,True
+107966,Quinn,Thompson,customer0725@example.com,Madison,WI,2023-02-26,Consumer,Email,Gold,True
+107982,Avery,Taylor,customer0726@example.com,Evansville,IN,2025-04-28,Consumer,Social Media,Silver,True
+107988,Riley,Clark,customer0727@example.com,Cincinnati,OH,2021-04-01,Consumer,Email,Bronze,True
+108003,Reese,Smith,customer0728@example.com,Sacramento,CA,2023-08-23,Consumer,Email,Bronze,True
+108011,Robin,White,customer0729@example.com,Colorado Springs,CO,2020-10-30,Consumer,Direct,Silver,False
+108025,Alex,Miller,customer0730@example.com,Bloomington,IL,2022-04-20,Consumer,Email,Bronze,True
+108034,Milan,Williams,customer0731@example.com,Sacramento,CA,2022-06-13,Consumer,Organic Search,Bronze,True
+108042,Sam,Garcia,customer0732@example.com,Buffalo,NY,2021-12-01,Consumer,Organic Search,Silver,True
+108057,Jamie,Martin,customer0733@example.com,Columbus,OH,2025-06-18,Consumer,Paid Search,Platinum,True
+108067,Harper,Lee,customer0734@example.com,Colorado Springs,CO,2026-03-14,Consumer,Social Media,Gold,True
+108080,Devon,Taylor,customer0735@example.com,Lansing,MI,2024-07-15,Consumer,Social Media,Bronze,False
+108086,Parker,Thomas,customer0736@example.com,Kansas City,MO,2021-10-29,Consumer,Organic Search,Bronze,True
+108098,Harper,Wilson,customer0737@example.com,Rockford,IL,2023-04-12,Consumer,Paid Search,Silver,True
+108108,Harper,Jones,customer0738@example.com,Pittsburgh,PA,2022-11-20,Corporate,Social Media,Platinum,False
+108119,Avery,Wilson,customer0739@example.com,Milwaukee,WI,2024-10-08,Consumer,Email,Silver,True
+108131,Parker,Jones,customer0740@example.com,Green Bay,WI,2025-01-10,Corporate,Paid Search,Bronze,True
+108146,Skyler,Harris,customer0741@example.com,Columbus,OH,2024-07-21,Small Business,Paid Search,Bronze,True
+108157,Skyler,Garcia,customer0742@example.com,Cleveland,OH,2025-08-26,Small Business,Email,Bronze,True
+108170,Milan,Clark,customer0743@example.com,Detroit,MI,2022-09-21,Consumer,Email,Silver,False
+108181,Riley,Lee,customer0744@example.com,Grand Rapids,MI,2023-11-19,Consumer,Organic Search,Silver,True
+108186,Riley,Anderson,customer0745@example.com,Rochester,MN,2022-05-27,Consumer,Email,Silver,True
+108195,Parker,Smith,customer0746@example.com,Grand Rapids,MI,2024-10-16,Consumer,Paid Search,Gold,False
+108208,Jamie,Taylor,customer0747@example.com,Cedar Rapids,IA,2020-08-30,Consumer,Referral,Bronze,False
+108223,Harper,Lee,customer0748@example.com,Naperville,IL,2022-01-03,Consumer,Organic Search,Bronze,False
+108235,Kendall,Garcia,customer0749@example.com,Detroit,MI,2024-05-03,Consumer,Paid Search,Bronze,True
+108239,Avery,Wilson,customer0750@example.com,St. Louis,MO,2021-11-04,Consumer,Referral,Bronze,False
+108254,Avery,Thompson,customer0751@example.com,San Diego,CA,2022-02-21,Consumer,Direct,Bronze,False
+108263,Robin,White,customer0752@example.com,Naperville,IL,2020-11-03,Consumer,Social Media,Gold,True
+108280,Logan,Brown,customer0753@example.com,Sacramento,CA,2025-10-06,Consumer,Paid Search,Bronze,True
+108284,Cameron,Thompson,customer0754@example.com,Cedar Rapids,IA,2024-06-10,Consumer,Organic Search,Silver,True
+108302,Jordan,Martin,customer0755@example.com,Cincinnati,OH,2021-12-16,Consumer,Email,Bronze,True
+108308,Skyler,Brown,customer0756@example.com,Bloomington,IL,2023-09-20,Consumer,Email,Bronze,False
+108320,Jordan,Martin,customer0757@example.com,Buffalo,NY,2025-07-26,Consumer,Paid Search,Platinum,True
+108332,Taylor,Martin,customer0758@example.com,Milwaukee,WI,2020-09-24,Consumer,Paid Search,Silver,True
+108341,Jamie,White,customer0759@example.com,Evansville,IN,2026-08-15,Small Business,Referral,Silver,True
+108354,Milan,Harris,customer0760@example.com,Naperville,IL,2023-05-25,Small Business,Email,Silver,False
+108362,Devon,Jones,customer0761@example.com,Bloomington,IL,2021-09-02,Consumer,Organic Search,Bronze,True
+108374,Jordan,White,customer0762@example.com,Savannah,GA,2024-07-30,Consumer,Referral,Silver,False
+108390,Cameron,Harris,customer0763@example.com,Denver,CO,2020-09-06,Consumer,Organic Search,Bronze,False
+108398,Milan,Wilson,customer0764@example.com,Cleveland,OH,2022-09-26,Consumer,Organic Search,Silver,False
+108408,Logan,Lewis,customer0765@example.com,Milwaukee,WI,2023-07-20,Consumer,Referral,Bronze,False
+108417,Skyler,Johnson,customer0766@example.com,Peoria,IL,2025-01-30,Consumer,Email,Silver,True
+108428,Milan,Jones,customer0767@example.com,New York,NY,2022-07-24,Consumer,Direct,Silver,False
+108439,Milan,Anderson,customer0768@example.com,Des Moines,IA,2020-05-10,Small Business,Email,Silver,True
+108454,Kendall,Jones,customer0769@example.com,Houston,TX,2024-02-24,Corporate,Organic Search,Bronze,False
+108463,Elliot,Moore,customer0770@example.com,Fort Wayne,IN,2021-08-05,Consumer,Email,Bronze,True
+108477,Taylor,Clark,customer0771@example.com,Columbus,OH,2023-10-30,Consumer,Organic Search,Bronze,True
+108487,Logan,Rodriguez,customer0772@example.com,Peoria,IL,2021-08-20,Consumer,Email,Bronze,True
+108499,Kendall,Anderson,customer0773@example.com,Tampa,FL,2026-02-28,Consumer,Social Media,Bronze,False
+108503,Sage,Williams,customer0774@example.com,Colorado Springs,CO,2023-11-27,Corporate,Organic Search,Bronze,True
+108519,Taylor,Thompson,customer0775@example.com,Madison,WI,2021-05-04,Consumer,Organic Search,Gold,True
+108528,Skyler,Miller,customer0776@example.com,Naperville,IL,2022-03-26,Small Business,Email,Bronze,True
+108540,Quinn,Wilson,customer0777@example.com,Fort Wayne,IN,2026-02-24,Consumer,Paid Search,Silver,True
+108555,Bailey,Jones,customer0778@example.com,Springfield,MO,2021-02-16,Small Business,Organic Search,Bronze,True
+108565,Quinn,Lewis,customer0779@example.com,Los Angeles,CA,2024-08-10,Consumer,Paid Search,Bronze,True
+108569,Morgan,Clark,customer0780@example.com,Fort Wayne,IN,2024-05-13,Consumer,Organic Search,Bronze,True
+108580,Morgan,Garcia,customer0781@example.com,Cleveland,OH,2023-04-15,Consumer,Direct,Gold,False
+108598,Alex,Moore,customer0782@example.com,Des Moines,IA,2024-01-12,Consumer,Email,Bronze,True
+108604,Elliot,Wilson,customer0783@example.com,Des Moines,IA,2023-06-19,Consumer,Direct,Bronze,True
+108617,Taylor,Clark,customer0784@example.com,Cedar Rapids,IA,2020-03-03,Consumer,Direct,Bronze,False
+108628,Taylor,Thomas,customer0785@example.com,Houston,TX,2020-11-11,Consumer,Paid Search,Bronze,True
+108637,Jordan,Taylor,customer0786@example.com,Pittsburgh,PA,2021-08-12,Consumer,Referral,Bronze,False
+108649,Skyler,Clark,customer0787@example.com,Indianapolis,IN,2025-12-27,Consumer,Organic Search,Gold,True
+108658,Alex,Miller,customer0788@example.com,Rochester,MN,2022-10-30,Consumer,Email,Bronze,True
+108669,Casey,White,customer0789@example.com,Bloomington,IL,2026-01-30,Consumer,Direct,Silver,True
+108687,Harper,Martin,customer0790@example.com,Detroit,MI,2022-01-10,Consumer,Social Media,Bronze,True
+108690,Milan,Anderson,customer0791@example.com,Columbus,OH,2026-04-27,Corporate,Organic Search,Silver,True
+108707,Milan,Jones,customer0792@example.com,Madison,WI,2023-05-24,Consumer,Organic Search,Silver,True
+108713,Avery,Taylor,customer0793@example.com,Chicago,IL,2025-10-01,Consumer,Referral,Bronze,False
+108724,Morgan,Anderson,customer0794@example.com,Madison,WI,2026-04-05,Consumer,Referral,Bronze,True
+108738,Casey,Taylor,customer0795@example.com,Philadelphia,PA,2020-02-25,Consumer,Email,Gold,False
+108747,Taylor,Perez,customer0796@example.com,Duluth,MN,2023-09-23,Consumer,Organic Search,Silver,False
+108756,Devon,Clark,customer0797@example.com,Columbus,OH,2025-10-04,Consumer,Social Media,Gold,True
+108774,Parker,Miller,customer0798@example.com,Des Moines,IA,2021-02-07,Small Business,Direct,Bronze,False
+108784,Devon,Lewis,customer0799@example.com,Cedar Rapids,IA,2025-06-14,Consumer,Social Media,Silver,True
+108792,Taylor,Brown,customer0800@example.com,Detroit,MI,2025-02-21,Consumer,Social Media,Bronze,True
