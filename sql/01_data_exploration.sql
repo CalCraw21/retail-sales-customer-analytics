@@ -41,3 +41,20 @@ ORDER BY category;
 SELECT DISTINCT customer_segment
 FROM customers
 ORDER BY customer_segment;
+
+-- 9. Check the different payment methods
+SELECT DISTINCT payment_method
+FROM sales
+ORDER BY payment_method;
+
+-- 10. Check the different product brands
+SELECT DISTINCT brand
+FROM products
+ORDER BY brand;
+
+-- 11. Check sales volume by status
+SELECT
+	order_status,
+	COUNT(*) AS num
+FROM sales
+GROUP BY order_status;
