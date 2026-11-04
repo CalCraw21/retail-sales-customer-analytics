@@ -111,7 +111,7 @@ FROM sales;
 -- Checking to make sure gross_revenue is correct in every row
 SELECT *
 FROM sales
-WHERE gross_revenue != (unit_price * quantity)
+WHERE gross_revenue != (unit_price * quantity);
 
 -- Checking to make sure net revenue is correct
 SELECT sale_id, gross_revenue, discount_pct, net_revenue,
@@ -125,27 +125,6 @@ SELECT sale_id, gross_revenue, discount_pct, net_revenue,
        gross_revenue * (1 - discount_pct) AS expected_net
 FROM sales
 WHERE ABS(net_revenue - gross_revenue * (1 - discount_pct)) > 0.01;
-
--- Investigating gross and net revenue to ensure that the min and max are accurate
-SELECT *
-FROM sales
-ORDER BY gross_revenue DESC
-LIMIT 10;
-
-SELECT *
-FROM sales
-ORDER BY gross_revenue
-LIMIT 10;
-
-SELECT *
-FROM sales
-ORDER BY net_revenue DESC
-LIMIT 10;
-
-SELECT *
-FROM sales
-ORDER BY net_revenue
-LIMIT 10;
 
 -- Checking for potential blank values in first and last name
 SELECT *
@@ -194,6 +173,48 @@ SELECT DISTINCT acquisition_channel
 FROM customers
 ORDER BY acquisition_channel;
 
-SELECT *
+-- Checking loyalty tier for any errors
+SELECT DISTINCT loyalty_tier
 FROM customers
-LIMIT 10;
+ORDER BY loyalty_tier;
+
+-- Checking for duplicates, there should be 120 unique names
+SELECT DISTINCT product_name
+FROM products
+ORDER BY product_name;
+
+-- Checking category for potential errors
+SELECT DISTINCT category
+FROM products
+ORDER BY category;
+
+-- Checking supplier region for potential errors
+SELECT DISTINCT supplier_region
+FROM products
+ORDER BY supplier_region;
+
+-- Checking product status for potential errors
+SELECT DISTINCT product_status
+FROM products
+ORDER BY product_status;
+
+-- Checking launch date range
+SELECT
+	MIN(launch_date),
+	MAX(launch_date)
+FROM products;
+
+-- Checking unit cost and unit price range for any potential negatives and numbers that might be too high
+SELECT
+	MIN(unit_cost) AS min_cost,
+	MAX(unit_cost) AS max_cost,
+	MIN(unit_price) AS min_price,
+	MAX(unit_price) AS max_price
+FROM products;
+
+-- Checking to make sure unit price is correct in the sales table by joinig the products table
+SELECT *
+FROM sales s
+LEFT JOIN products p
+	ON s.product_id = p.product_id
+WHERE s.unit_price != p.unit_price;
