@@ -218,3 +218,31 @@ FROM sales s
 LEFT JOIN products p
 	ON s.product_id = p.product_id
 WHERE s.unit_price != p.unit_price;
+
+-- Checking to see if any customers placed orders before they signed up
+SELECT 
+	s.sale_id,
+	s.customer_id,
+	c.signup_date,
+	s.order_date
+FROM sales s
+JOIN customers c
+	ON s.customer_id = c.customer_id
+WHERE s.order_date < c.signup_date
+ORDER BY s.order_date;
+
+-- Counts the total orders from customers that had a signup date greater than a order date
+-- 1730 sales
+SELECT COUNT(*)
+FROM sales s
+JOIN customers c
+	ON s.customer_id = c.customer_id
+WHERE s.order_date < c.signup_date;
+
+-- Checking for the total number of customers that placed an order before they signed up for an account
+-- 375 customers
+SELECT COUNT(DISTINCT s.customer_id)
+FROM sales s
+JOIN customers c
+	ON s.customer_id = c.customer_id
+WHERE s.order_date < c.signup_date;
