@@ -72,6 +72,21 @@ SELECT customer_id
 FROM sales
 ORDER BY customer_id DESC;
 
+-- Investigating customers that have not made a purchase
+-- Found 7 customers that have never made a purchase
+SELECT
+    c.customer_id,
+    c.first_name,
+    c.last_name,
+    c.signup_date,
+    c.customer_segment,
+    c.loyalty_tier
+FROM customers AS c
+LEFT JOIN sales AS s
+    ON c.customer_id = s.customer_id
+WHERE s.customer_id IS NULL
+ORDER BY c.customer_id;
+
 -- Checking for orphan product ids in the sales table
 -- Found 9
 SELECT *
@@ -239,6 +254,17 @@ JOIN customers c
 	ON s.customer_id = c.customer_id
 WHERE s.order_date < c.signup_date;
 
+-- Investigating customers first purchase date compared to their signup date
+SELECT
+	s.customer_id,
+	MIN(order_date) AS first_purchase_date,
+	signup_date
+FROM sales AS s
+LEFT JOIN customers AS c
+	ON s.customer_id = c.customer_id
+GROUP BY s.customer_id, signup_date
+ORDER BY signUp_date DESC;
+
 -- Checking for the total number of customers that placed an order before they signed up for an account
 -- 375 customers
 SELECT COUNT(DISTINCT s.customer_id)
@@ -246,3 +272,12 @@ FROM sales s
 JOIN customers c
 	ON s.customer_id = c.customer_id
 WHERE s.order_date < c.signup_date;
+
+-- Investigating how many days between a customers purchase and their signup date
+SELECT
+	signup_date - order_date AS days_before_signup
+FROM customers AS c
+JOIN sales AS s
+	ON c.customer_id = s.customer_id
+WHERE order_date < signup_date
+ORDER BY days_before_signup DESC;
